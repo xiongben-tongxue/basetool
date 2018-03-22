@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * 【list实现分页获取】
  *
- * @author yangjh  03/06/2017.
+ * @author wangdong  03/06/2017.
  */
 public class ListPageUtil<T> {
 

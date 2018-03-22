@@ -9,7 +9,7 @@ import okhttp3.Response;
  * http自定义异常类
  *
  * @version 
- * @author liuyi  2016年7月17日 下午2:28:00
+ * @author wangdong  2016年7月17日 下午2:28:00
  * 
  */
 public class HttpGwsException extends IOException {

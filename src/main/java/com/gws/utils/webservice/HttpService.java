@@ -5,7 +5,7 @@ import com.gws.utils.webservice.impl.CommonResponse;
 import java.util.Map;
 
 /**
- * @author yangjh
+ * @author wangdong
  */
 public interface HttpService {
 

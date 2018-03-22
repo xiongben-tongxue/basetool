@@ -12,7 +12,7 @@ import static org.mockito.Mockito.*;
  * Mockito test demo
  *
  * @version 
- * @author liuyi  2016年6月25日 下午2:09:33
+ * @author wangdong  2016年6月25日 下午2:09:33
  * 
  */
 public class MockitoTestCase extends GwsBaseTestCase {

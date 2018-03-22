@@ -49,7 +49,7 @@ public class DataUtil {
 	 * 
 	 * map to object
 	 * 
-	 * @author liuyi 2017年4月12日
+	 * @author wangdong 2017年4月12日
 	 * @param map
 	 * @param clazz
 	 * @return

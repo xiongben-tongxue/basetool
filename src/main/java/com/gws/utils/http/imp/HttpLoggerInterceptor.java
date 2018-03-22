@@ -17,7 +17,7 @@ import okio.Buffer;
  * HTTP客户端HTTP请求日志
  *
  * @version 
- * @author liuyi  2016年7月17日 下午7:15:30
+ * @author wangdong  2016年7月17日 下午7:15:30
  * 
  */
 public class HttpLoggerInterceptor implements Interceptor {
@@ -108,7 +108,7 @@ public class HttpLoggerInterceptor implements Interceptor {
 	 * 
 	 * 只监控json,xml,html类型
 	 * 
-	 * @author liuyi 2016年7月18日
+	 * @author wangdong 2016年7月18日
 	 * @param mediaType
 	 * @return
 	 */

@@ -2,44 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e39950b9-d1f7-45c8-ba81-8e86a35dd000" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/log/access.log" afterPath="$PROJECT_DIR$/log/access.log" />
-      <change beforePath="$PROJECT_DIR$/log/gws.log" afterPath="$PROJECT_DIR$/log/gws.log" />
-      <change beforePath="$PROJECT_DIR$/log/sql.log" afterPath="$PROJECT_DIR$/log/sql.log" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/base/CacheModule.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/base/CacheModule.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/base/CachePrefix.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/base/CachePrefix.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/base/H5RequestMappingHandlerMapping.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/base/H5RequestMappingHandlerMapping.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/base/annotation/Anonymous.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/base/annotation/Anonymous.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/base/annotation/GwsRequestMaping.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/base/annotation/GwsRequestMaping.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/base/annotation/H5Controller.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/base/annotation/H5Controller.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/base/exception/GlobalThrowsAdvice.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/base/exception/GlobalThrowsAdvice.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/common/constants/LocalTopicName.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/common/constants/LocalTopicName.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/common/constants/RmqTopicAndGroup.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/common/constants/RmqTopicAndGroup.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/configuration/DataSouceMonitorConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/configuration/DataSouceMonitorConfig.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/configuration/EnvironmentConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/configuration/EnvironmentConfig.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/configuration/GwsWebConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/configuration/GwsWebConfig.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/configuration/HttpClientConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/configuration/HttpClientConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/configuration/HttpServiceConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/configuration/HttpServiceConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/configuration/JacksonConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/configuration/JacksonConfig.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/configuration/RedisCacheConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/configuration/RedisCacheConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/configuration/TomcatConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/configuration/TomcatConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/controllers/JsonResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/controllers/JsonResult.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/dto/AccessLog.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/dto/AccessLog.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/dto/MyPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/dto/MyPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/dto/OperationResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/dto/OperationResult.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/dto/RequestUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/dto/RequestUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/dto/SaveOrUpdateResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/dto/SaveOrUpdateResult.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/dto/SaveResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/dto/SaveResult.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/dto/SqlAccessLog.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/dto/SqlAccessLog.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/dto/UserAgent.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/dto/UserAgent.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/entity/xinge/MessagesRecord.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/entity/xinge/MessagesRecord.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/entity/xinge/NoticesRecord.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/entity/xinge/NoticesRecord.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/entity/xinge/OperationMessRecord.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/entity/xinge/OperationMessRecord.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/BizErrorCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/BizErrorCode.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/DeleteEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/DeleteEnum.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/CodeStatus.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/CodeStatus.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/OsTypeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/OsTypeEnum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/StateEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/StateEnum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/SystemCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/SystemCode.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/TimePointEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/TimePointEnum.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/YesNoEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/YesNoEnum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/date/MonthEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/date/MonthEnum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/xinge/MessContentEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/xinge/MessContentEnum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/xinge/MessTitleEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/xinge/MessTitleEnum.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/enums/xinge/MessTypeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/enums/xinge/MessTypeEnum.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/interceptor/HttpInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/interceptor/HttpInterceptor.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/interceptor/IPWhitelistInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/interceptor/IPWhitelistInterceptor.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/interceptor/LoginInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/interceptor/LoginInterceptor.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/interceptor/annotation/WhitelistAction.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/interceptor/annotation/WhitelistAction.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/repositories/master/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/repositories/master/package-info.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/repositories/query/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/repositories/query/package-info.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/CacheConstant.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/CacheConstant.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/DataUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/DataUtil.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/EmojiFilterUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/EmojiFilterUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/GlobalConstant.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/GlobalConstant.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/GwsLogger.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/GwsLogger.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/GwsLoggerTypeEnum.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/GwsLoggerTypeEnum.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/GwsUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/GwsUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/IPUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/IPUtil.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/ListPageUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/ListPageUtil.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/SerializingUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/SerializingUtil.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/ServletUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/ServletUtils.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/beans/FastBean.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/beans/FastBean.java" />
@@ -61,6 +66,11 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/query/core/BaseQueryPredicateBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/query/core/BaseQueryPredicateBuilder.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/query/core/GwsBaseRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/query/core/GwsBaseRepository.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/query/core/QueryToSpecification.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/query/core/QueryToSpecification.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/HttpService.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/HttpService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/RetResult.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/RetResult.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/ServiceName.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/ServiceName.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/impl/CommonResponse.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/impl/CommonResponse.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/impl/HttpServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/gws/utils/webservice/impl/HttpServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gws/base/GwsBaseTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/com/gws/base/GwsBaseTestCase.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gws/base/ITest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gws/base/ITest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gws/base/TestInject.java" afterPath="$PROJECT_DIR$/src/test/java/com/gws/base/TestInject.java" />
@@ -68,62 +78,377 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gws/http/HttpInitTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/gws/http/HttpInitTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gws/http/TestHttpClient.java" afterPath="$PROJECT_DIR$/src/test/java/com/gws/http/TestHttpClient.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gws/mockito/MockitoTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/com/gws/mockito/MockitoTestCase.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gws/webservice/Response.java" afterPath="$PROJECT_DIR$/src/test/java/com/gws/webservice/Response.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gws/webservice/UserInfo.java" afterPath="$PROJECT_DIR$/src/test/java/com/gws/webservice/UserInfo.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/H5RequestMappingHandlerMapping.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/base/H5RequestMappingHandlerMapping.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/exception/GlobalThrowsAdvice.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/base/exception/GlobalThrowsAdvice.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/DataSouceMonitorConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/configuration/DataSouceMonitorConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/EnvironmentConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/configuration/EnvironmentConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/GwsWebConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/configuration/GwsWebConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/HttpClientConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/configuration/HttpClientConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/HttpServiceConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/configuration/HttpServiceConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/RedisCacheConfig$1.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/configuration/RedisCacheConfig$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/RedisCacheConfig.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/configuration/RedisCacheConfig.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/entity/xinge/OperationMessRecord.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/entity/xinge/OperationMessRecord.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/BizErrorCode.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/BizErrorCode.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/DeleteEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/DeleteEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/OsTypeEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/OsTypeEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/StateEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/StateEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/SystemCode.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/SystemCode.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/TimePointEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/TimePointEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/YesNoEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/YesNoEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/date/MonthEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/date/MonthEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/xinge/MessContentEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/xinge/MessContentEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/xinge/MessTitleEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/xinge/MessTitleEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/xinge/MessTypeEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/enums/xinge/MessTypeEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/interceptor/HttpInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/interceptor/HttpInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/interceptor/IPWhitelistInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/interceptor/IPWhitelistInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/interceptor/LoginInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/interceptor/LoginInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/DataUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/DataUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/EmojiFilterUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/EmojiFilterUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/GwsLogger.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/GwsLogger.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/GwsLoggerTypeEnum.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/GwsLoggerTypeEnum.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/GwsUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/GwsUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/SerializingUtil.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/SerializingUtil.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/ServletUtils.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/ServletUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/beans/FastBean.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/beans/FastBean.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/cache/BaseRedisCacheImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/cache/BaseRedisCacheImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/cache/IdGlobalGenerator.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/cache/IdGlobalGenerator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/event/LocalMessageEvent.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/event/LocalMessageEvent.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/GwsHttpClientImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/GwsHttpClientImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/HttpClientMetricsInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/HttpClientMetricsInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/HttpGwsException.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/HttpGwsException.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/HttpLoggerInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/HttpLoggerInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/jpa/BaseSimpleJpaRepositoryEx.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/jpa/BaseSimpleJpaRepositoryEx.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/Where.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/query/Where.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/BaseQuery.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/BaseQuery.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/BaseQueryPredicateBuilder$1.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/BaseQueryPredicateBuilder$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/BaseQueryPredicateBuilder.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/BaseQueryPredicateBuilder.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/QueryToSpecification.class" afterPath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/QueryToSpecification.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/base/GwsBaseTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/base/GwsBaseTestCase.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$CollatingHandler.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$CollatingHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$DataEvent$1.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$DataEvent$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$DataEvent.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$DataEvent.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$TransformingHandler.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$TransformingHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/http/HttpInitTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/http/HttpInitTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/http/TestHttpClient.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/http/TestHttpClient.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/mockito/MockitoTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/mockito/MockitoTestCase.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/webservice/UserInfo.class" afterPath="$PROJECT_DIR$/target/test-classes/com/gws/webservice/UserInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/GwsWebApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/CacheModule.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/CachePrefix.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/H5RequestMappingHandlerMapping.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/annotation/Anonymous.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/annotation/Encryption.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/annotation/GwsRequestMaping.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/annotation/H5Controller.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/exception/GlobalControllerExceptionHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/base/exception/GlobalThrowsAdvice.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/common/constants/CommonConstant.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/common/constants/LocalTopicName.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/common/constants/NotifyMsgInteractionType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/common/constants/RmqTopicAndGroup.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/CommonConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/DataSouceMonitorConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/EnvironmentConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/GwsWebConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/HttpClientConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/HttpServiceConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/JacksonConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/MasterRepositoryConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/RedisCacheConfig$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/RedisCacheConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/RedisInitKey.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/RedisValConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/RedisValInit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/SecurityConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/SlaveRepositoryConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/TomcatConfig$GwsTomcatConnectionCustomizer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/TomcatConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/configuration/WebConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/controllers/BaseApiController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/controllers/JsonResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/controllers/api/MessageApiController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/controllers/api/TestController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/AccessLog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/MyPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/MySummary.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/OperationResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/RequestUser$User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/RequestUser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/SaveOrUpdateResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/SaveResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/SqlAccessLog.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/UserAgent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/message/HasNewMess.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/message/MessageResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/message/NoticesRecordDto.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/message/UserMessage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/dto/test/Year.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/entity/DateTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/entity/xinge/MessagesRecord.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/entity/xinge/NoticesRecord.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/entity/xinge/OperationMessRecord.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/BizErrorCode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/CodeStatus.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/DeleteEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/OsTypeEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/PageEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/StateEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/SystemCode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/TimePointEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/YesNoEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/date/MonthEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/xinge/MessContentEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/xinge/MessTitleEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/enums/xinge/MessTypeEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/interceptor/HttpInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/interceptor/IPWhitelistInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/interceptor/LoginInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/interceptor/annotation/WhitelistAction.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/DatabaseType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/HintShardingValueManager$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/HintShardingValueManager$ShardingValueContainer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/HintShardingValueManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/ShardingDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/ShardingValue$ShardingValueType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/ShardingValue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/config/ShardingConfiguration.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/config/ShardingConfigurationConstant.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/rule/BindingTableRule$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/rule/BindingTableRule.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/rule/DataNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/rule/DataSourceRule.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/rule/ShardingRule.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/rule/TableRule.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/common/MultipleKeysShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/common/ShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/common/ShardingStrategy$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/common/ShardingStrategy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/common/SingleKeyShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/database/DatabaseShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/database/DatabaseShardingStrategy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/database/MultipleKeysDatabaseShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/database/NoneDatabaseShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/database/SingleKeyDatabaseShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/database/imp/DefaultSingleKeyModuloDatabaseShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/database/imp/DefaultSingleKeyModuloTableShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/database/imp/SingleKeyModuloDatabaseShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/database/imp/SingleKeyModuloTableShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/table/MultipleKeysTableShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/table/NoneTableShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/table/SingleKeyTableShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/table/TableShardingAlgorithm.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/api/strategy/table/TableShardingStrategy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/exception/DatabaseTypeUnsupportedException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/exception/SQLParserException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/exception/ShardingJdbcException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/ExecuteUnit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/ExecutorEngine$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/ExecutorEngine$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/ExecutorEngine.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/MergeUnit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/PreparedStatementExecutor$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/PreparedStatementExecutor$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/PreparedStatementExecutor$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/PreparedStatementExecutor$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/PreparedStatementExecutor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$11.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$12.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$4.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$7.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$8.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$Executor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$StatementEntity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor$Updater.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/executor/StatementExecutor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/AbstractShardingResultSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/ShardingConnection$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/ShardingConnection.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/ShardingContext.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/ShardingPreparedStatement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/ShardingStatement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/adapter/AbstractConnectionAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/adapter/AbstractDataSourceAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/adapter/AbstractPreparedStatementAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/adapter/AbstractResultSetAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/adapter/AbstractResultSetGetterAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/adapter/AbstractStatementAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/adapter/WrapperAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/unsupported/AbstractResultSetUpdaterAdapter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/unsupported/AbstractUnsupportedOperationConnection.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/unsupported/AbstractUnsupportedOperationDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/unsupported/AbstractUnsupportedOperationPreparedStatement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/unsupported/AbstractUnsupportedOperationResultSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/unsupported/AbstractUnsupportedOperationStatement.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/jdbc/util/JdbcMethodInvocation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/ResultSetFactory$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/ResultSetFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/AbstractAggregationUnit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/AccumulationAggregationUnit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/AggregationInvokeHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/AggregationResultSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/AggregationUnit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/AggregationUnitFactory$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/AggregationUnitFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/AggregationValue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/AvgAggregationUnit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/ComparableAggregationUnit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/aggregation/ResultSetAggregationValue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/common/AbstractMergerInvokeHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/common/ResultSetQueryIndex.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/common/ResultSetUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/groupby/GroupByInvokeHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/groupby/GroupByKey.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/groupby/GroupByResultSet$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/groupby/GroupByResultSet$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/groupby/GroupByResultSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/groupby/GroupByValue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/iterator/IteratorResultSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/orderby/OrderByResultSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/orderby/OrderByValue$Value.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/merger/orderby/OrderByValue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/metrics/MetricsContext.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/metrics/ThreadLocalObjectContainer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/SQLParseEngine.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/SQLParserFactory$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/SQLParserFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/SQLVisitorRegistry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/SQLParsedResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/merger/AggregationColumn$AggregationType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/merger/AggregationColumn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/merger/GroupByColumn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/merger/Limit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/merger/MergeContext$ResultSetType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/merger/MergeContext.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/merger/OrderByColumn$OrderByType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/merger/OrderByColumn.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/Condition$BinaryOperator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/Condition$Column.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/Condition.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/ConditionContext.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/RouteContext.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/SQLBuilder$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/SQLBuilder$StringToken.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/SQLBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/SQLStatementType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/result/router/Table.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/ParseContext.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/SQLVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/VisitorLogProxy$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/VisitorLogProxy$VisitorHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/VisitorLogProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/basic/mysql/AbstractMySQLVisitor$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/basic/mysql/AbstractMySQLVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/basic/mysql/MySQLDeleteVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/basic/mysql/MySQLInsertVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/basic/mysql/MySQLSelectVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/basic/mysql/MySQLUpdateVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/or/OrParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/or/OrVisitor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/or/node/AbstractOrASTNode$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/or/node/AbstractOrASTNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/or/node/CompositeOrASTNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/parser/visitor/or/node/SimpleOrASTNode.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/RoutingResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/SQLExecutionUnit.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/SQLRouteEngine$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/SQLRouteEngine.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/SQLRouteResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/binding/BindingRoutingDataSource$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/binding/BindingRoutingDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/binding/BindingRoutingResult$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/binding/BindingRoutingResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/binding/BindingRoutingTableFactor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/binding/BindingTablesRouter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/mixed/CartesianDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/mixed/CartesianResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/mixed/CartesianTableReference.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/mixed/CartesianTablesRouter$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/mixed/CartesianTablesRouter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/mixed/MixedTablesRouter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/single/SingleRouterUtil$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/single/SingleRouterUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/single/SingleRoutingDataSource$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/single/SingleRoutingDataSource.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/single/SingleRoutingResult$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/single/SingleRoutingResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/single/SingleRoutingTableFactor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/router/single/SingleTableRouter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/rdb/sharding/util/SQLUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/repositories/master/mess/MessagesRecordMaster.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/repositories/master/mess/NoticesRecordMaster.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/repositories/master/mess/OperationMessRecordMaster.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/repositories/master/test/DateTestQuery.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/repositories/query/mess/MessagesRecordQuery.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/repositories/query/mess/NoticesRecordQuery.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/repositories/slave/mess/MessagesRecordSlave.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/repositories/slave/mess/NoticesRecordSlave.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/repositories/slave/test/DateTestSlave.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/services/fzm/TestManageService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/services/fzm/TestService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/services/fzm/impl/TestManageServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/services/fzm/impl/TestServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/services/mess/MessageManageService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/services/mess/MessageService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/services/mess/impl/MessageManageServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/services/mess/impl/MessageServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/Base64.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/BigDecimalUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/CacheConstant.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/CookieUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/DataFormatUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/DataUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/DateUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/EmojiFilterUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/GetFirstZM.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/GlobalConstant.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/GwsLogger.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/GwsLoggerTypeEnum.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/GwsUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/HttpUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/IPUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/IPUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/ListPageUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/ObjectId.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/SerializingUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/ServletUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/UserNameUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/beans/FastBean.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/cache/AbstractBaseRedis.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/cache/BaseRedisCacheImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/cache/CacheClient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/cache/IdGlobalGenerator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/crypto/Codec.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/crypto/CryptoException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/crypto/Encrypt$HashType.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/crypto/Encrypt.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/event/LocalEvent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/event/LocalMessageEvent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/http/HTTP.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/GwsHttpClientImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/HttpClientMetricsInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/HttpGwsException.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/http/imp/HttpLoggerInterceptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/jpa/BaseSimpleJpaRepositoryEx.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/json/JsonParam.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/json/JsonParameterBinder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/Where.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/annotation/QBindAttrField.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/annotation/QBindEntity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/BaseQuery.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/BaseQueryPredicateBuilder$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/BaseQueryPredicateBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/GwsBaseRepository.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/query/core/QueryToSpecification.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/webservice/HttpService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/webservice/RetResult.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/webservice/ServiceName.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/webservice/impl/CommonResponse.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/utils/webservice/impl/HttpServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/dbconf.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/masterShardingContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/shardingConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/slaveShardingContext.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/conf/yxmDbConfig.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/keystore.jks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sample.jks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/script.uc/gamemall_ucenter.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/script.uc/ucenter.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/script.uc/xinge.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sensitive.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/template.vm" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/xg/xinge.sql" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/youximao.jks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/base/GwsBaseTestCase.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/base/ITest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/base/TestInject.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/AbstractPerfTestDisruptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/AbstractPerfTestQueue.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/MutableLong.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/OneToThreeSequencedThroughputTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/Operation$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/Operation$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/Operation$3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/Operation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/PaddedLong.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/PerfTestUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$CollatingHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$DataEvent$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$DataEvent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor$TransformingHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/TestDisruptor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/ValueEvent$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/ValueEvent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/disruptor/ValueMutationEventHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/http/HttpInitTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/http/TestHttpClient.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/mockito/MockitoTestCase.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/webservice/Response.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/webservice/UserInfo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/uc.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/uc.jar.original" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -135,26 +460,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WhitelistAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/interceptor/annotation/WhitelistAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalThrowsAdvice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/base/exception/GlobalThrowsAdvice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DataSouceMonitorConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/configuration/DataSouceMonitorConfig.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -175,12 +480,38 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BaseApiController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/controllers/BaseApiController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/configuration/CommonConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GwsWebConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/configuration/GwsWebConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="236">
+              <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -243,9 +574,12 @@
     <findStrings>
       <find>/* * Copyright (C) 2016  HangZhou YuShi Technology Co.Ltd  Holdings Ltd. All rights reserved * * 本代码版权归杭州宇石科技所有，且受到相关的法律保护。 * 没有经过版权所有者的书面同意， * 任何其他个人或组织均不得以任何形式将本文件或本文件的部分代码用于其他商业用途。 * */</find>
       <find>宇石</find>
+      <find>liuyi</find>
+      <find>yangjh</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>wangdong</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java/com/gws/repositories</dir>
@@ -307,12 +641,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gws/base/exception/GlobalThrowsAdvice.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gws/configuration/DataSouceMonitorConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gws/configuration/EnvironmentConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gws/configuration/GwsWebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gws/configuration/HttpClientConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gws/configuration/HttpServiceConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gws/configuration/RedisCacheConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gws/repositories/master/package-info.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gws/repositories/query/package-info.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gws/configuration/GwsWebConfig.java" />
       </list>
     </option>
   </component>
@@ -392,6 +726,32 @@
             <path>
               <item name="emptydemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="emptydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emptydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emptydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emptydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emptydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="nodes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emptydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emptydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="nodes" type="462c0819:PsiDirectoryNode" />
+              <item name="0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emptydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emptydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -414,6 +774,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gws" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="emptydemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="emptydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gws" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="emptydemo" type="b2602c69:ProjectViewProjectNode" />
@@ -431,24 +800,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gws" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emptydemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="emptydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gws" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="emptydemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="emptydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -602,12 +954,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521716078668</updated>
-      <workItem from="1521716080141" duration="1978000" />
+      <workItem from="1521716080141" duration="2196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1978000" />
+    <option name="totallyTimeSpent" value="2196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="131" y="67" width="1521" height="825" extended-state="0" />
@@ -657,22 +1009,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/utils/event/LocalEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/utils/event/LocalMessageEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/utils/http/HTTP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -1009,14 +1345,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/configuration/EnvironmentConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/configuration/HttpClientConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1059,11 +1387,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/configuration/EnvironmentConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/controllers/BaseApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/configuration/CommonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gws/configuration/GwsWebConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="236">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

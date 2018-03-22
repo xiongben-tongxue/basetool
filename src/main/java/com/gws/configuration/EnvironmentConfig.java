@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * 配置文件
  *
  * @version 
- * @author liuyi  2016年4月19日 下午9:22:32
+ * @author wangdong  2016年4月19日 下午9:22:32
  * 
  */
 @Configuration

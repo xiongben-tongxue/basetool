@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * 请求映射
  *
  * @version 
- * @author liuyi  2017年4月7日 下午3:21:07
+ * @author wangdong  2017年4月7日 下午3:21:07
  * 
  */
 @Target({ElementType.METHOD, ElementType.TYPE})

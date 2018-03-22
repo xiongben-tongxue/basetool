@@ -40,7 +40,7 @@ import java.util.stream.Collectors;
  * 扩展对JAP功能加强
  *
  * @version 
- * @author liuyi  2016年4月16日 下午2:40:16
+ * @author wangdong  2016年4月16日 下午2:40:16
  * 
  */
 @Transactional(readOnly=false,propagation=Propagation.SUPPORTS)
@@ -109,7 +109,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 *
 	 * 自定义组合查询分页方法
 	 *
-	 * @author liuyi 2016年4月18日
+	 * @author wangdong 2016年4月18日
 	 * @param query
 	 * @param pageable
 	 * @return
@@ -435,7 +435,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 * 
 	 * 自定义更新update方法
 	 * 
-	 * @author liuyi 2016年7月16日
+	 * @author wangdong 2016年7月16日
 	 * @param id
 	 * @param where
 	 * @return
@@ -470,7 +470,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 * 
 	 * 根据唯一主键更新相关数据
 	 * 
-	 * @author liuyi 2016年7月16日
+	 * @author wangdong 2016年7月16日
 	 * @param id
 	 * @param where
 	 * @return

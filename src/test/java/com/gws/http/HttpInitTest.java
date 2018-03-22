@@ -14,7 +14,7 @@ import com.gws.utils.http.imp.HttpGwsException;
  * HttpInitTest
  *
  * @version 
- * @author liuyi  2016年7月17日 下午6:20:25
+ * @author wangdong  2016年7月17日 下午6:20:25
  * 
  */
 public class HttpInitTest extends GwsBaseTestCase {

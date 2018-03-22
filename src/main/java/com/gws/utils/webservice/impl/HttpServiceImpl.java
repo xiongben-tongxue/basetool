@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by yangjh on 7/18/16.
+ * Created by wangdong on 7/18/16.
  */
 public class HttpServiceImpl implements HttpService {
 

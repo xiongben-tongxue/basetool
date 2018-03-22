@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * H5 controller
  *
  * @version 
- * @author liuyi  2017年4月7日 下午3:12:17
+ * @author wangdong  2017年4月7日 下午3:12:17
  * 
  */
 @Target(ElementType.TYPE)

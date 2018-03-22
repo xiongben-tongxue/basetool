@@ -37,7 +37,7 @@ import java.util.Map;
  * redis配置
  *
  * @version 
- * @author liuyi  2016年4月15日 下午3:07:39
+ * @author wangdong  2016年4月15日 下午3:07:39
  *
  */
 @Configuration

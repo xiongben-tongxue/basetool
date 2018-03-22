@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
  * redis序列化工具类
  *
  * @version 
- * @author liuyi  2016年4月7日 下午6:24:34
+ * @author wangdong  2016年4月7日 下午6:24:34
  * 
  */
 public class SerializingUtil {

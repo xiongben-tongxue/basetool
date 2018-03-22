@@ -11,7 +11,7 @@ import reactor.bus.EventBus;
  * 本地消息事件
  *
  * @version 
- * @author liuyi  2017年4月18日 下午11:33:40
+ * @author wangdong  2017年4月18日 下午11:33:40
  * 
  */
 @Component
@@ -32,7 +32,7 @@ public class LocalMessageEvent implements LocalEvent {
 	 * 
 	 * 消息发布，投递
 	 * 
-	 * @author liuyi 2017年4月19日
+	 * @author wangdong 2017年4月19日
 	 * @throws Exception
 	 */
 	public void dispatch() throws Exception{

@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * 【功能描述】
  *
- * @author yangjh  28/07/2017.
+ * @author wangdong  28/07/2017.
  */
 @Data
 public class MyPage<T> {

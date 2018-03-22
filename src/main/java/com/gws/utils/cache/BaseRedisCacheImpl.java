@@ -11,7 +11,7 @@ import org.springframework.data.redis.core.ListOperations;
  * REDIS缓存实现类
  *
  * @version 
- * @author liuyi  2016年4月25日 下午1:44:12
+ * @author wangdong  2016年4月25日 下午1:44:12
  *
  */
 public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient {

@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  * 【ip白名单拦截器】
  *
  * @version 4.0.0
- * @author yangjh
+ * @author wangdong
  *
  */
 

@@ -17,7 +17,7 @@ import static com.codahale.metrics.MetricRegistry.name;
  * 和SQL一样使用Metrics来对HTTP客户端请求进行服务指标度量处理
  *
  * @version 
- * @author liuyi  2016年7月17日 下午7:09:16
+ * @author wangdong  2016年7月17日 下午7:09:16
  * 
  */
 public class HttpClientMetricsInterceptor implements Interceptor {

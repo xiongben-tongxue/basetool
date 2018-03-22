@@ -21,7 +21,7 @@ import org.springframework.context.annotation.Configuration;
  * 使用tomcat配置
  *
  * @version 
- * @author liuyi  2016年4月21日 下午8:02:53
+ * @author wangdong  2016年4月21日 下午8:02:53
  * 
  */
 @Configuration
@@ -66,7 +66,7 @@ public class TomcatConfig {
 	 * 默认http连接
 	 *
 	 * @version 
-	 * @author liuyi  2016年7月20日 下午7:59:41
+	 * @author wangdong  2016年7月20日 下午7:59:41
 	 *
 	 */
 	public class GwsTomcatConnectionCustomizer implements TomcatConnectorCustomizer {

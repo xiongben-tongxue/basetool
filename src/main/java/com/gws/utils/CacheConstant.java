@@ -12,7 +12,7 @@ package com.gws.utils;
  * 缓存前缀定义类
  *
  * @version 
- * @author liuyi  2016年4月20日 下午6:22:26
+ * @author wangdong  2016年4月20日 下午6:22:26
  * 
  */
 public final class CacheConstant {

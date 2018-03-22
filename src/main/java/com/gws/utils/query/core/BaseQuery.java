@@ -8,7 +8,7 @@ import org.springframework.data.domain.Sort;
  * query基类，注意分库分表的sharding-col是不能用使用In查询的，路由不了。
  *
  * @version 
- * @author liuyi  2016年4月16日 下午3:48:02
+ * @author wangdong  2016年4月16日 下午3:48:02
  * 
  */
 public abstract class BaseQuery {

@@ -4,7 +4,7 @@ package com.gws.enums;
 /**
  * 【操作系统枚举】
  *
- * @author yangjh
+ * @author wangdong
  *
  */
 public enum OsTypeEnum {

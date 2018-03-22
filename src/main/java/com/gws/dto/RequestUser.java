@@ -5,7 +5,7 @@ import lombok.Data;
 /**
  * 【请求辅助工具类】
  *
- * @author yangjh  3/24/17.
+ * @author wangdong  3/24/17.
  */
 public class RequestUser {
 

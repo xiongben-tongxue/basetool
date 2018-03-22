@@ -13,7 +13,7 @@ import com.gws.utils.CacheConstant;
  * 全局ID生成器
  *
  * @version 
- * @author liuyi  2016年4月13日 下午11:26:55
+ * @author wangdong  2016年4月13日 下午11:26:55
  * 
  */
 @Component
@@ -29,7 +29,7 @@ public  class IdGlobalGenerator {
 	 * 
 	 * 获取ID
 	 * 
-	 * @author liuyi 2016年4月13日
+	 * @author wangdong 2016年4月13日
 	 * @return
 	 */
 	public  Long getSeqId() {
@@ -45,7 +45,7 @@ public  class IdGlobalGenerator {
 	 * 
 	 * 细化粒度，以单表实体类名为序列前缀
 	 * 
-	 * @author liuyi 2016年4月21日
+	 * @author wangdong 2016年4月21日
 	 * @param clz
 	 * @return
 	 */
@@ -74,7 +74,7 @@ public  class IdGlobalGenerator {
 	 * 
 	 * 获取缓存ID系列值
 	 * 
-	 * @author liuyi 2016年4月15日
+	 * @author wangdong 2016年4月15日
 	 * @return
 	 */
 	private  Long getCacheSeqIncr(){
@@ -93,7 +93,7 @@ public  class IdGlobalGenerator {
 	 * 
 	 * 细化粒度获取自增ID
 	 * 
-	 * @author liuyi 2016年4月21日
+	 * @author wangdong 2016年4月21日
 	 * @param prefix
 	 * @return
 	 */

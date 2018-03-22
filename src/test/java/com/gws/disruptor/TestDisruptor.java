@@ -13,7 +13,7 @@ import com.lmax.disruptor.util.DaemonThreadFactory;
  * 并发框架测试
  *
  * @version 
- * @author liuyi  2016年6月22日 下午6:13:22
+ * @author wangdong  2016年6月22日 下午6:13:22
  * 
  */
 public class TestDisruptor {
@@ -80,7 +80,7 @@ public class TestDisruptor {
 	/**
 	 * 【请在此输入描述文字】
 	 * 
-	 * @author liuyi 2016年6月22日
+	 * @author wangdong 2016年6月22日
 	 * @param args
 	 */
 	public static void main(String[] args) {

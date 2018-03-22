@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 
 /**
  *  emoji 过滤工具类
- *  @author yangjh
+ *  @author wangdong
  */
 public final class EmojiFilterUtil {
 

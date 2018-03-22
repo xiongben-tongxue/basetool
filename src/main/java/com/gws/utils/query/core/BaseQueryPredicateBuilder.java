@@ -23,7 +23,7 @@ import java.util.Set;
  * query转换builder类
  *
  * @version 
- * @author liuyi  2016年4月16日 下午3:54:41
+ * @author wangdong  2016年4月16日 下午3:54:41
  * 
  */
 public class BaseQueryPredicateBuilder {
@@ -135,7 +135,7 @@ public class BaseQueryPredicateBuilder {
 	 * 
 	 * 获取查询实体类名称
 	 * 
-	 * @author liuyi 2016年4月16日
+	 * @author wangdong 2016年4月16日
 	 * @param query
 	 * @return
 	 */
@@ -150,7 +150,7 @@ public class BaseQueryPredicateBuilder {
 	 * 
 	 * 获取绑定字段属性值
 	 * 
-	 * @author liuyi 2016年4月16日
+	 * @author wangdong 2016年4月16日
 	 * @param PropertyName
 	 * @return
 	 */

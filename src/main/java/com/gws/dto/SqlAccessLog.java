@@ -12,7 +12,7 @@ package com.gws.dto;
  * sql访问日志
  *
  * @version 
- * @author liuyi  2016年7月18日 上午10:27:26
+ * @author wangdong  2016年7月18日 上午10:27:26
  * 
  */
 public class SqlAccessLog {

@@ -3,7 +3,7 @@ package com.gws.base;
 /**
  * 【缓存模块】
  *
- * @author yangjh  06/05/2017.
+ * @author wangdong  06/05/2017.
  */
 public class CacheModule {
 

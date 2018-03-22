@@ -16,7 +16,7 @@ import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
  * 【自定义Jackson序列化】
  * 1、不序列化空值
  *
- * @author yangjh  06/05/2017.
+ * @author wangdong  06/05/2017.
  */
 
 @Configuration

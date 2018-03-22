@@ -2,7 +2,7 @@ package com.gws.common.constants;
 
 /**
  * rocketmq 主题
- * @author yangjh
+ * @author wangdong
  */
 public final class RmqTopicAndGroup {
 

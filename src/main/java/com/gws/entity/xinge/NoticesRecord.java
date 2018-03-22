@@ -18,7 +18,7 @@ import javax.persistence.Table;
  * 【广播通知记录表】实体类
 *
  * @version
- * @author yangjh 2017年11月24日 上午10:23:14
+ * @author wangdong 2017年11月24日 上午10:23:14
  */ 
 @Entity
 @Data

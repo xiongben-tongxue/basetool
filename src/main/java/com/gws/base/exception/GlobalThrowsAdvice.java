@@ -7,7 +7,7 @@ import org.springframework.aop.ThrowsAdvice;
  * 统一异常拦截
  *
  * @version 
- * @author liuyi  2017年4月10日 下午4:15:58
+ * @author wangdong  2017年4月10日 下午4:15:58
  * 
  */
 public class GlobalThrowsAdvice implements ThrowsAdvice {

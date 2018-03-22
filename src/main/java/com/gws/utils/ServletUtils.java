@@ -14,7 +14,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
  * sprint servlet工具类
  *
  * @version 
- * @author liuyi  2016年4月19日 下午6:37:30
+ * @author wangdong  2016年4月19日 下午6:37:30
  * 
  */
 public final class ServletUtils {
@@ -24,7 +24,7 @@ public final class ServletUtils {
 	 * 
 	 * 获取用户SID
 	 * 
-	 * @author liuyi 2016年4月19日
+	 * @author wangdong 2016年4月19日
 	 * @return
 	 */
 	public static String getSid(){	
@@ -56,7 +56,7 @@ public final class ServletUtils {
 	   * 
 	   * 获取当前线程的请求
 	   * 
-	   * @author liuyi 2016年4月19日
+	   * @author wangdong 2016年4月19日
 	   * @return
 	   */
 	  public static HttpServletRequest getRequest() {

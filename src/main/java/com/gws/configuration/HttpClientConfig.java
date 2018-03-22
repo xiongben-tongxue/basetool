@@ -21,7 +21,7 @@ import okhttp3.OkHttpClient;
  * http client配置
  *
  * @version 
- * @author liuyi  2016年7月17日 下午5:58:37
+ * @author wangdong  2016年7月17日 下午5:58:37
  * 
  * 
  */

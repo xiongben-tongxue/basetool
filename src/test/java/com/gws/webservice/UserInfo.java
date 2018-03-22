@@ -7,7 +7,7 @@ import java.io.Serializable;
  * 用户访问日志
  *
  * @version 
- * @author liuyi  2016年4月19日 下午5:14:38
+ * @author wangdong  2016年4月19日 下午5:14:38
  * 
  */
 public class UserInfo implements Serializable {

@@ -4,7 +4,7 @@ import com.gws.enums.SystemCode;
 
 /**
  * api接口请求统一响应结果
- * @author yangjh
+ * @author wangdong
  */
 public class RetResult {
 

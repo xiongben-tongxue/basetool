@@ -5,7 +5,7 @@ package com.gws.utils.query;
  * 目前系统支持的where查询条件关键字
  *
  * @version 
- * @author liuyi  2016年4月16日 下午6:40:05
+ * @author wangdong  2016年4月16日 下午6:40:05
  * 
  */
 public enum Where {

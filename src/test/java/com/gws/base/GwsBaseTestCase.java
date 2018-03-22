@@ -17,7 +17,7 @@ import junit.framework.TestCase;
  * GWS框架单元测试基础类
  *
  * @version 
- * @author liuyi  2016年6月24日 上午9:54:13
+ * @author wangdong  2016年6月24日 上午9:54:13
  * 
  */
 public class GwsBaseTestCase extends TestCase implements ITest {
@@ -41,7 +41,7 @@ public class GwsBaseTestCase extends TestCase implements ITest {
      * 
      * 自动注入对象
      * 
-     * @author liuyi 2016年6月24日
+     * @author wangdong 2016年6月24日
      */
 	private void autoInjectObj(){
     	Field[] fields = getClass().getDeclaredFields();

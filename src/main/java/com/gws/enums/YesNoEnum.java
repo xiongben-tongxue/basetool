@@ -3,7 +3,7 @@ package com.gws.enums;
 
 /**
  * 是与否枚举类
- * @author yangjh
+ * @author wangdong
  */
 public enum YesNoEnum {
 	YES(1,"是"),

@@ -16,7 +16,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * spring web 配置
  *
  * @version 
- * @author yangjh
+ * @author wangdong
  */
 @Configuration
 @ComponentScan("com.gws.interceptor")

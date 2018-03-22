@@ -11,7 +11,7 @@ import java.lang.annotation.RetentionPolicy;
  * GWS测试框架bean注入注解
  *
  * @version 
- * @author liuyi  2016年06月16日 下午6:18:03
+ * @author wangdong  2016年06月16日 下午6:18:03
  * 
  */
 @Target({java.lang.annotation.ElementType.CONSTRUCTOR, java.lang.annotation.ElementType.FIELD, java.lang.annotation.ElementType.METHOD, java.lang.annotation.ElementType.ANNOTATION_TYPE})

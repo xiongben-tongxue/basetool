@@ -7,7 +7,7 @@ import lombok.Data;
 /**
  * 【接口请求统一JSON格式响应】
  *
- * @author yangjh  26/04/2017.
+ * @author wangdong  26/04/2017.
  */
 @Data
 public class JsonResult {

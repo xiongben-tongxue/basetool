@@ -6,7 +6,7 @@ import java.net.UnknownHostException;
 
 /**
  * IP操作工具类
- * @author yangjh
+ * @author wangdong
  */
 public class IPUtil {
 
@@ -40,7 +40,7 @@ public class IPUtil {
 
 	/**
 	 * 【是否在ip白名单ip内】
-	 * @author yangjh
+	 * @author wangdong
 	 * @param ip
 	 * @param whiteListArg
      * @return

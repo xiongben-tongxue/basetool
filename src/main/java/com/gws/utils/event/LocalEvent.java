@@ -5,7 +5,7 @@ package com.gws.utils.event;
  * message事件
  *
  * @version 
- * @author liuyi  2017年4月18日 下午11:30:34
+ * @author wangdong  2017年4月18日 下午11:30:34
  * 
  */
 public interface LocalEvent {

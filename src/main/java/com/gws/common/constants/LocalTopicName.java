@@ -3,7 +3,7 @@ package com.gws.common.constants;
 /**
  * 
  * 本地订阅主题
- * @author yangjh
+ * @author wangdong
  *
  */
 public final class LocalTopicName {

@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletResponse;
  * 【登录拦截器，拦截非登录态的接口调用】
  *
  * @version 4.0.0
- * @author yangjh
+ * @author wangdong
  *
  */
 @Configuration

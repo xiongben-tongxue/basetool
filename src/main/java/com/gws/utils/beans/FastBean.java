@@ -13,7 +13,7 @@ import org.springframework.cglib.beans.BeanMap;
  * 动态创建一个bean对象
  *
  * @version
- * @author liuyi 2017年4月12日 上午10:57:40
+ * @author wangdong 2017年4月12日 上午10:57:40
  * 
  */
 public class FastBean {
@@ -24,7 +24,7 @@ public class FastBean {
 	 * 
 	 *动态bean对象创建方法
 	 * 
-	 * @author liuyi 2017年4月12日
+	 * @author wangdong 2017年4月12日
 	 * @param propertyMap
 	 * @return
 	 */
@@ -39,7 +39,7 @@ public class FastBean {
 	 * 
 	 * 动态创建属性
 	 * 
-	 * @author liuyi 2017年4月12日
+	 * @author wangdong 2017年4月12日
 	 * @param propertyMap
 	 * @return
 	 */
@@ -56,7 +56,7 @@ public class FastBean {
 	 * 
 	 * 属性赋值
 	 * 
-	 * @author liuyi 2017年4月12日
+	 * @author wangdong 2017年4月12日
 	 * @param property
 	 * @param value
 	 */
@@ -70,7 +70,7 @@ public class FastBean {
 	 * 
 	 * 获取属性值
 	 * 
-	 * @author liuyi 2017年4月12日
+	 * @author wangdong 2017年4月12日
 	 * @param property
 	 * @return
 	 */
@@ -82,7 +82,7 @@ public class FastBean {
 	 * 
 	 * 获取创建成功的bean对象
 	 * 
-	 * @author liuyi 2017年4月12日
+	 * @author wangdong 2017年4月12日
 	 * @return
 	 */
 	public Object getBeanObj(){

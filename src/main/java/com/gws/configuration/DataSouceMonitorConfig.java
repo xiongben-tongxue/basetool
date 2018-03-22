@@ -11,7 +11,7 @@ import com.alibaba.druid.support.spring.stat.DruidStatInterceptor;
  *  sql监控拦截器配置，
  *  note：有多种方式可以进行监控，由于分库分表组件异步了，threadlocal绑定操作比较复杂这里对连接池监控
  * @version 
- * @author liuyi  2016年7月18日 上午11:32:36
+ * @author wangdong  2016年7月18日 上午11:32:36
  * 
  */
 @Configuration

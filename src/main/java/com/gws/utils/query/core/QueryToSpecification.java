@@ -12,7 +12,7 @@ import javax.persistence.criteria.Root;
  * 自定义Query语言转Specification
  *
  * @version 
- * @author liuyi  2016年4月16日 下午3:46:50
+ * @author wangdong  2016年4月16日 下午3:46:50
  * @param <T>
  * 
  */

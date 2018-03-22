@@ -24,7 +24,7 @@ import okhttp3.HttpUrl.Builder;
  * 封装http协议，简化操作
  *
  * @version 
- * @author liuyi  2016年7月16日 下午10:51:51
+ * @author wangdong  2016年7月16日 下午10:51:51
  * 
  */
 public  class GwsHttpClientImpl implements HTTP {
@@ -40,7 +40,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * GET极简同步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param url
 	 * @return
 	 * @throws HttpGwsException 
@@ -62,7 +62,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * POST极简同步方法，JSON内容
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param url
 	 * @param jsonBody
 	 * @return
@@ -87,7 +87,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * GET 同步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param queryParams
 	 * @return
@@ -117,7 +117,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * POST同步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param bodyParams
 	 * @return
@@ -149,7 +149,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * GET异步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param request
 	 * @param responseHandle
 	 * @throws IOException
@@ -163,7 +163,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * GET方法 异步请求
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param queryParams
 	 * @param responseHandle
@@ -191,7 +191,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * POST异步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param jsonBody
 	 * @param responseHandle
@@ -210,7 +210,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * POST异步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param bodyParams
 	 * @param responseHandle
@@ -238,7 +238,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * 请求方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param request
 	 * @return
 	 * @throws IOException
@@ -252,7 +252,7 @@ public  class GwsHttpClientImpl implements HTTP {
 	 * 
 	 * 构造CALL方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param request
 	 * @return
 	 */

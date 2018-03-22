@@ -8,7 +8,7 @@ import java.util.List;
  * 缓存客户端接口类
  *
  * @version 
- * @author liuyi  2016年4月25日 下午1:48:15
+ * @author wangdong  2016年4月25日 下午1:48:15
  *
  */
 public interface CacheClient {
@@ -16,7 +16,7 @@ public interface CacheClient {
 	 * 
 	 * 设置对象
 	 * 
-	 * @author liuyi 2016年4月20日
+	 * @author wangdong 2016年4月20日
 	 * @param key
 	 * @param object
 	 * @param timeout
@@ -30,7 +30,7 @@ public interface CacheClient {
      * 
      * 设置列表缓存
      * 
-     * @author liuyi 2016年4月25日
+     * @author wangdong 2016年4月25日
      * @param prefix
      * @param key
      * @param t
@@ -43,7 +43,7 @@ public interface CacheClient {
      * 
      * 获取对象
      * 
-     * @author liuyi 2016年4月20日
+     * @author wangdong 2016年4月20日
      * @param key
      * @return
      */
@@ -55,7 +55,7 @@ public interface CacheClient {
      * 
      * 获取列表缓存
      * 
-     * @author liuyi 2016年4月25日
+     * @author wangdong 2016年4月25日
      * @param prefix
      * @param key
      * @param t
@@ -67,7 +67,7 @@ public interface CacheClient {
      * 
      * 删除缓存
      * 
-     * @author liuyi 2016年4月20日
+     * @author wangdong 2016年4月20日
      * @param key
      */
 

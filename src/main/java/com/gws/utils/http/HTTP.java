@@ -15,7 +15,7 @@ import okhttp3.Response;
  * HTTP客户端常用接口封装，简化操作，提升性能，后续支持注解
  * 参考RestTemplate
  * @version 
- * @author liuyi  2016年7月17日 上午9:29:16
+ * @author wangdong  2016年7月17日 上午9:29:16
  * 
  */
 public interface HTTP {
@@ -24,7 +24,7 @@ public interface HTTP {
 	 * 
 	 * GET同步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param url
 	 * @return
 	 * @throws HttpGwsException
@@ -35,7 +35,7 @@ public interface HTTP {
 	 * 
 	 * GET同步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param queryParams
 	 * @return
@@ -47,7 +47,7 @@ public interface HTTP {
 	 * 
 	 * GET异步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param request
 	 * @param responseHandle
 	 * @throws IOException
@@ -57,7 +57,7 @@ public interface HTTP {
 	 * 
 	 * GET异步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param queryParams
 	 * @param responseHandle
@@ -71,7 +71,7 @@ public interface HTTP {
 	 * 
 	 * POST同步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param url
 	 * @param jsonBody
 	 * @return
@@ -83,7 +83,7 @@ public interface HTTP {
 	 * 
 	 *  POST同步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param bodyParams
 	 * @return
@@ -95,7 +95,7 @@ public interface HTTP {
 	 * 
 	 *  POST异步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param jsonBody
 	 * @param responseHandle
@@ -105,7 +105,7 @@ public interface HTTP {
 	 * 
 	 * POST异步方法
 	 * 
-	 * @author liuyi 2016年7月17日
+	 * @author wangdong 2016年7月17日
 	 * @param baseUrl
 	 * @param bodyParams
 	 * @param responseHandle

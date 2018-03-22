@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * api请求统一响应数据类型
- * Created by yangjh on 7/18/16.
+ * Created by wangdong on 7/18/16.
  */
 public class Response extends CommonResponse {
     public Map<String, UserInfo> data;

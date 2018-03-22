@@ -134,7 +134,7 @@ public class GwsUtil {
 	 * 
 	 * 获取用户SID
 	 * 
-	 * @author liuyi 2016年4月19日
+	 * @author wangdong 2016年4月19日
 	 * @return
 	 */
 	public static String getSid() {

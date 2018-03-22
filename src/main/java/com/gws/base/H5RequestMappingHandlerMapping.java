@@ -18,7 +18,7 @@ import com.gws.base.annotation.H5Controller;
  * h5controller请求映射处理
  *
  * @version 
- * @author liuyi  2017年4月7日 下午3:30:12
+ * @author wangdong  2017年4月7日 下午3:30:12
  * 
  */
 public class H5RequestMappingHandlerMapping extends RequestMappingHandlerMapping {

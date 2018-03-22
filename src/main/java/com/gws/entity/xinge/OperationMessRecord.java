@@ -10,7 +10,7 @@ import javax.persistence.Table;
  * 【运营操作消息记录表】实体类
 *
  * @version
- * @author yangjh 2017年12月06日 上午09:25:20
+ * @author wangdong 2017年12月06日 上午09:25:20
  */ 
 @Entity
 @Table(name = "t_operation_mess_record") 

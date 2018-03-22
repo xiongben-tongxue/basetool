@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  * http 拦截器 demo
  *
  * @version 
- * @author liuyi  2016年4月12日 下午1:35:11
+ * @author wangdong  2016年4月12日 下午1:35:11
  * 
  */
 public class HttpInterceptor extends HandlerInterceptorAdapter {

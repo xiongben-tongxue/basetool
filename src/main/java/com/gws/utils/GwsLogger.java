@@ -12,7 +12,7 @@ import com.gws.dto.AccessLog;
  * 全局log类
  *
  * @version 
- * @author liuyi  2016年4月19日 下午11:08:53
+ * @author wangdong  2016年4月19日 下午11:08:53
  * 
  */
 public final class GwsLogger {
@@ -27,7 +27,7 @@ public final class GwsLogger {
      * 
      * 全局日志logger调用
      * 
-     * @author liuyi 2016年4月19日
+     * @author wangdong 2016年4月19日
      * @param loggerType
      * @return
      */
@@ -44,7 +44,7 @@ public final class GwsLogger {
      * 
      * 全局日志默认GWS枚举
      * 
-     * @author liuyi 2016年4月19日
+     * @author wangdong 2016年4月19日
      * @return
      */
     public static Logger getLogger(){
@@ -55,7 +55,7 @@ public final class GwsLogger {
      * 
      * 输出已定义日志类别的info日志
      * 
-     * @author liuyi 2016年4月20日
+     * @author wangdong 2016年4月20日
      * @param loggerType
      * @param msg
      * @param args
@@ -70,7 +70,7 @@ public final class GwsLogger {
      * 
      * 输出已定义日志类别的info日志
      * 
-     * @author liuyi 2016年4月20日
+     * @author wangdong 2016年4月20日
      * @param loggerType
      * @param throwable
      * @param msg
@@ -86,7 +86,7 @@ public final class GwsLogger {
 	 * 
 	 * 输出默认的GWS类别info日志
 	 * 
-	 * @author liuyi 2016年4月20日
+	 * @author wangdong 2016年4月20日
 	 * @param msg
 	 * @param args
 	 */
@@ -100,7 +100,7 @@ public final class GwsLogger {
      * 
      * 输出默认的GWS类别info日志
      * 
-     * @author liuyi 2016年4月20日
+     * @author wangdong 2016年4月20日
      * @param throwable
      * @param msg
      * @param args
@@ -116,7 +116,7 @@ public final class GwsLogger {
 	 * 
 	 *  输出默认的GWS类别debug日志
 	 * 
-	 * @author liuyi 2016年4月20日
+	 * @author wangdong 2016年4月20日
 	 * @param msg
 	 * @param args
 	 */
@@ -130,7 +130,7 @@ public final class GwsLogger {
 	 * 
 	 *输出默认GWS日志类别的debug日志
 	 * 
-	 * @author liuyi 2016年4月20日
+	 * @author wangdong 2016年4月20日
 	 * @param throwable
 	 * @param msg
 	 * @param args
@@ -145,7 +145,7 @@ public final class GwsLogger {
 	 * 
 	 * 输出默认GWS日志类别的错误日志
 	 * 
-	 * @author liuyi 2016年4月20日
+	 * @author wangdong 2016年4月20日
 	 * @param msg
 	 * @param args
 	 */
@@ -159,7 +159,7 @@ public final class GwsLogger {
 	 * 
 	 *  输出默认GWS日志类别的错误日志
 	 * 
-	 * @author liuyi 2016年4月20日
+	 * @author wangdong 2016年4月20日
 	 * @param throwable
 	 * @param msg
 	 * @param args
@@ -174,7 +174,7 @@ public final class GwsLogger {
 	 * 
 	 * 增加重要信息到日志中
 	 * 
-	 * @author liuyi 2016年4月20日
+	 * @author wangdong 2016年4月20日
 	 * @param msg
 	 * @return
 	 */
@@ -200,7 +200,7 @@ public final class GwsLogger {
      * 
      * 格式化文本
      * 
-     * @author liuyi 2016年4月20日
+     * @author wangdong 2016年4月20日
      * @param format
      * @param args
      * @return

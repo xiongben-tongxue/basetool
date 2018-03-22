@@ -18,7 +18,7 @@ import java.util.List;
  * 基类的数据访问接口(继承了CrudRepository,PagingAndSortingRepository,JpaSpecificationExecutor的特性)
  *
  * @version 
- * @author liuyi  2016年4月16日 上午10:33:56
+ * @author wangdong  2016年4月16日 上午10:33:56
  * 
  */
 @NoRepositoryBean
@@ -29,7 +29,7 @@ public abstract interface  GwsBaseRepository<T, ID extends Serializable>
 	 * 
 	 * 使用QBL进行查询列表
 	 * 
-	 * @author liuyi 2016年4月16日
+	 * @author wangdong 2016年4月16日
 	 * @param query
 	 * @return
 	 */
@@ -39,7 +39,7 @@ public abstract interface  GwsBaseRepository<T, ID extends Serializable>
 	 * 
 	 * 封装分页查询
 	 * 
-	 * @author liuyi 2016年4月18日
+	 * @author wangdong 2016年4月18日
 	 * @param query
 	 * @param pageable
 	 * @return
@@ -50,7 +50,7 @@ public abstract interface  GwsBaseRepository<T, ID extends Serializable>
 	 *
 	 * 封装排序查询
 	 *
-	 * @author liuyi 2016年4月18日
+	 * @author wangdong 2016年4月18日
 	 * @param query
 	 * @param sort
 	 * @return
@@ -63,7 +63,7 @@ public abstract interface  GwsBaseRepository<T, ID extends Serializable>
 	 *
 	 * 使用QBL定位记录
 	 *
-	 * @author liuyi 2016年4月16日
+	 * @author wangdong 2016年4月16日
 	 * @param query
 	 * @return
 	 */
@@ -73,7 +73,7 @@ public abstract interface  GwsBaseRepository<T, ID extends Serializable>
 	 *
 	 * 更新方法
 	 *
-	 * @author liuyi 2016年7月16日
+	 * @author wangdong 2016年7月16日
 	 * @param t
 	 * @param updateFileds
 	 * @param where
@@ -85,7 +85,7 @@ public abstract interface  GwsBaseRepository<T, ID extends Serializable>
      *
      * 根据唯一主键更新方法
      *
-     * @author liuyi 2016年7月16日
+     * @author wangdong 2016年7月16日
      * @param t
      * @param id
      * @param updateFileds

@@ -5,7 +5,7 @@ import com.gws.enums.CodeStatus;
 /**
  * 【保存或更新操作结果】
  *
- * @author yangjh  26/04/2017.
+ * @author wangdong  26/04/2017.
  */
 public class SaveOrUpdateResult<T> {
 

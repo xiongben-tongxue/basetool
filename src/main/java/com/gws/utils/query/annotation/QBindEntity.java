@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
  * 查询绑定实体类
  *
  * @version 
- * @author liuyi  2016年4月16日 下午6:18:03
+ * @author wangdong  2016年4月16日 下午6:18:03
  * 
  */
 @Target({java.lang.annotation.ElementType.TYPE})
