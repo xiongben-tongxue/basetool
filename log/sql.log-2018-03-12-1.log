@@ -1,0 +1,150 @@
+[2018-02-24 14:24:30] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 3777 (started by wd in /home/wd/workspace/空项目/utilservice)
+[2018-02-24 14:24:30] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 14:27:27] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 4495 (started by wd in /home/wd/workspace/空项目/utilservice)
+[2018-02-24 14:27:27] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 14:33:44] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 5720 (started by wd in /home/wd/workspace/空项目/utilservice)
+[2018-02-24 14:33:44] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 14:33:50] INFO : Started GwsWebApplication in 6.081 seconds (JVM running for 6.974)
+[2018-02-24 14:34:31] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 5940 (started by wd in /home/wd/workspace/空项目/utilservice)
+[2018-02-24 14:34:31] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 14:34:37] INFO : Started GwsWebApplication in 5.995 seconds (JVM running for 6.973)
+[2018-02-24 14:37:00] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 6278 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 14:37:00] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 14:37:06] INFO : Started GwsWebApplication in 6.162 seconds (JVM running for 7.043)
+[2018-02-24 15:07:06] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 8992 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 15:07:06] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 15:07:12] INFO : Started GwsWebApplication in 6.689 seconds (JVM running for 7.649)
+[2018-02-24 15:24:18] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 10045 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 15:24:18] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 15:24:25] INFO : Started GwsWebApplication in 7.179 seconds (JVM running for 8.134)
+[2018-02-24 15:27:01] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 10531 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 15:27:01] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 15:27:08] INFO : Started GwsWebApplication in 6.82 seconds (JVM running for 7.686)
+[2018-02-24 15:27:48] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 15:27:48] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 15:27:48] INFO : useTime=130ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 15:40:47] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 12152 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 15:40:47] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 15:40:53] INFO : Started GwsWebApplication in 7.011 seconds (JVM running for 7.951)
+[2018-02-24 15:41:03] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 15:41:03] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 15:41:03] INFO : useTime=138ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 15:58:59] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 13050 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 15:58:59] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 15:59:06] INFO : Started GwsWebApplication in 6.787 seconds (JVM running for 7.68)
+[2018-02-24 15:59:17] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 15:59:17] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 15:59:17] INFO : useTime=134ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:05:35] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 13386 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 16:05:35] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 16:05:41] INFO : Started GwsWebApplication in 6.853 seconds (JVM running for 7.752)
+[2018-02-24 16:05:47] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:05:47] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:05:47] INFO : useTime=131ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:06:44] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 13649 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 16:06:44] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 16:06:51] INFO : Started GwsWebApplication in 7.019 seconds (JVM running for 7.868)
+[2018-02-24 16:06:55] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:06:55] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:06:55] INFO : useTime=65ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:07:29] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 13886 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 16:07:29] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 16:07:35] INFO : Started GwsWebApplication in 6.895 seconds (JVM running for 7.76)
+[2018-02-24 16:07:37] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:07:37] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:07:37] INFO : useTime=30ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:07:48] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:07:48] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:07:48] INFO : useTime=6ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:08:43] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 14169 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 16:08:43] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 16:08:50] INFO : Started GwsWebApplication in 6.886 seconds (JVM running for 7.813)
+[2018-02-24 16:08:54] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:08:54] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:08:54] INFO : useTime=136ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:10:09] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 14434 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 16:10:09] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 16:10:15] INFO : Started GwsWebApplication in 7.051 seconds (JVM running for 7.871)
+[2018-02-24 16:10:20] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:10:20] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:10:21] INFO : useTime=137ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:11:02] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 14687 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 16:11:02] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 16:11:09] INFO : Started GwsWebApplication in 6.697 seconds (JVM running for 7.72)
+[2018-02-24 16:11:14] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:11:14] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:11:14] INFO : useTime=138ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:13:40] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 14999 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 16:13:40] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 16:13:47] INFO : Started GwsWebApplication in 6.843 seconds (JVM running for 7.876)
+[2018-02-24 16:13:51] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:13:51] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:13:51] INFO : useTime=31ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:18:14] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:18:14] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:18:14] INFO : useTime=6ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:26:46] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 16071 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 16:26:46] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 16:26:52] INFO : Started GwsWebApplication in 6.861 seconds (JVM running for 7.789)
+[2018-02-24 16:26:52] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:26:52] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:26:52] INFO : useTime=74ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:27:23] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:27:23] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:27:23] INFO : useTime=2ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-24 16:41:03] INFO : Starting GwsWebApplication on wd-Inspiron-7447 with PID 17180 (/home/wd/workspace/kong/utilservice/target/classes started by wd in /home/wd/workspace/kong/utilservice)
+[2018-02-24 16:41:03] INFO : No active profile set, falling back to default profiles: default
+[2018-02-24 16:41:10] INFO : Started GwsWebApplication in 6.775 seconds (JVM running for 7.674)
+[2018-02-24 16:41:10] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-24 16:41:10] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-24 16:41:10] INFO : useTime=74ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-25 17:53:21] INFO : Starting GwsWebApplication on wdMac.local with PID 7331 (/Users/wangdong/TestSpace/utilservice/target/classes started by wangdong in /Users/wangdong/TestSpace/utilservice)
+[2018-02-25 17:53:21] INFO : No active profile set, falling back to default profiles: default
+[2018-02-25 17:53:30] INFO : Started GwsWebApplication in 9.234 seconds (JVM running for 11.693)
+[2018-02-25 17:57:26] INFO : routes db: [ss_0] sharding columns: [] sharding values: []
+[2018-02-25 17:57:26] INFO : routes db: [DataNode(dataSourceName=ss_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-02-25 17:57:26] INFO : useTime=37ms,`sql= [select datetest0_.id as id1_0_, datetest0_.amount as amount2_0_, datetest0_.month as month3_0_, datetest0_.year as year4_0_ from date_test datetest0_ where 1=1],`params=[]
+[2018-02-25 23:15:22] INFO : Starting GwsWebApplication on wdMac.local with PID 838 (/Users/wangdong/TestSpace/utilservice/target/classes started by wangdong in /Users/wangdong/TestSpace/utilservice)
+[2018-02-25 23:15:22] INFO : No active profile set, falling back to default profiles: default
+[2018-02-25 23:16:54] INFO : Starting GwsWebApplication on wdMac.local with PID 882 (/Users/wangdong/TestSpace/utilservice/target/classes started by wangdong in /Users/wangdong/TestSpace/utilservice)
+[2018-02-25 23:16:54] INFO : No active profile set, falling back to default profiles: default
+[2018-02-25 23:19:46] INFO : Starting GwsWebApplication on wdMac.local with PID 913 (/Users/wangdong/TestSpace/utilservice/target/classes started by wangdong in /Users/wangdong/TestSpace/utilservice)
+[2018-02-25 23:19:46] INFO : No active profile set, falling back to default profiles: default
+[2018-02-25 23:41:44] INFO : Starting GwsWebApplication on wdMac.local with PID 1015 (/Users/wangdong/TestSpace/utilservice/target/classes started by wangdong in /Users/wangdong/TestSpace/utilservice)
+[2018-02-25 23:41:44] INFO : No active profile set, falling back to default profiles: default
+[2018-02-25 23:41:51] INFO : Started GwsWebApplication in 7.023 seconds (JVM running for 8.095)
+[2018-02-25 23:42:16] INFO : Starting GwsWebApplication on wdMac.local with PID 1021 (/Users/wangdong/TestSpace/utilservice/target/classes started by wangdong in /Users/wangdong/TestSpace/utilservice)
+[2018-02-25 23:42:16] INFO : No active profile set, falling back to default profiles: default
+[2018-02-25 23:42:23] INFO : Started GwsWebApplication in 7.045 seconds (JVM running for 8.05)
+[2018-03-02 14:09:38] INFO : Starting GwsWebApplication on wdMac.local with PID 1468 (/Users/wangdong/TestSpace/utilservice/target/classes started by wangdong in /Users/wangdong/TestSpace/utilservice)
+[2018-03-02 14:09:38] INFO : No active profile set, falling back to default profiles: default
+[2018-03-02 14:31:27] INFO : Starting GwsWebApplication on wdMac.local with PID 1803 (/Users/wangdong/TestSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/TestSpace/emptydemo)
+[2018-03-02 14:31:27] INFO : No active profile set, falling back to default profiles: default
+[2018-03-02 14:32:20] INFO : Starting GwsWebApplication on wdMac.local with PID 1856 (/Users/wangdong/TestSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/TestSpace/emptydemo)
+[2018-03-02 14:32:20] INFO : No active profile set, falling back to default profiles: default
+[2018-03-02 14:33:32] INFO : Starting GwsWebApplication on wdMac.local with PID 1944 (/Users/wangdong/TestSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/TestSpace/emptydemo)
+[2018-03-02 14:33:32] INFO : No active profile set, falling back to default profiles: default
+[2018-03-02 14:38:13] INFO : Starting GwsWebApplication on wdMac.local with PID 2143 (/Users/wangdong/TestSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/TestSpace/emptydemo)
+[2018-03-02 14:38:13] INFO : No active profile set, falling back to default profiles: default
+[2018-03-02 14:49:36] INFO : Starting GwsWebApplication on wdMac.local with PID 2507 (/Users/wangdong/TestSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/TestSpace/emptydemo)
+[2018-03-02 14:49:36] INFO : No active profile set, falling back to default profiles: default
+[2018-03-02 14:51:22] INFO : Starting GwsWebApplication on wdMac.local with PID 2650 (/Users/wangdong/TestSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/TestSpace/emptydemo)
+[2018-03-02 14:51:22] INFO : No active profile set, falling back to default profiles: default
+[2018-03-02 14:54:29] INFO : Starting GwsWebApplication on wdMac.local with PID 2733 (/Users/wangdong/TestSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/TestSpace/emptydemo)
+[2018-03-02 14:54:29] INFO : No active profile set, falling back to default profiles: default
+[2018-03-02 14:54:37] INFO : Started GwsWebApplication in 8.393 seconds (JVM running for 9.477)
+[2018-03-05 15:38:13] INFO : Starting GwsWebApplication on wdMac.local with PID 4188 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-05 15:38:13] INFO : No active profile set, falling back to default profiles: default
+[2018-03-05 15:39:32] INFO : Starting GwsWebApplication on wdMac.local with PID 4201 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-05 15:39:32] INFO : No active profile set, falling back to default profiles: default
+[2018-03-05 15:40:22] INFO : Starting GwsWebApplication on wdMac.local with PID 4251 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-05 15:40:22] INFO : No active profile set, falling back to default profiles: default
+[2018-03-05 15:43:09] INFO : Starting GwsWebApplication on wdMac.local with PID 4372 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-05 15:43:09] INFO : No active profile set, falling back to default profiles: default
+[2018-03-05 15:43:16] INFO : Started GwsWebApplication in 6.844 seconds (JVM running for 7.977)
+[2018-03-05 16:18:06] INFO : Starting GwsWebApplication on wdMac.local with PID 5126 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-05 16:18:06] INFO : No active profile set, falling back to default profiles: default
+[2018-03-05 16:18:14] INFO : Started GwsWebApplication in 8.1 seconds (JVM running for 9.45)
+[2018-03-05 16:21:51] INFO : Starting GwsWebApplication on wdMac.local with PID 5234 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-05 16:21:51] INFO : No active profile set, falling back to default profiles: default
+[2018-03-05 16:21:58] INFO : Started GwsWebApplication in 6.697 seconds (JVM running for 7.726)
