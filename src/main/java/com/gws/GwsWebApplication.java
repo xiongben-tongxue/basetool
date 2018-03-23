@@ -17,6 +17,6 @@ public class GwsWebApplication {
     public static void main(String[] args) {
     	SpringApplication app = new SpringApplication(GwsWebApplication.class);
         SpringApplication.run(GwsWebApplication.class, args);
-    	GwsLogger.info("game cat web server is started!");
+    	GwsLogger.info(" webApplication server is started!");
     }
 }

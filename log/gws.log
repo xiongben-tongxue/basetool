@@ -373,3 +373,96 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 [2018-03-22 20:16:25] INFO : Started GwsWebApplication in 9.265 seconds (JVM running for 10.385)
 [2018-03-22 20:16:25] INFO : game cat web server is started!
 [2018-03-22 20:16:34] INFO : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73f8bfc5: startup date [Thu Mar 22 20:16:16 CST 2018]; root of context hierarchy
+[2018-03-23 11:53:14] INFO : Starting GwsWebApplication on wdMac.local with PID 2705 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-23 11:53:14] INFO : No active profile set, falling back to default profiles: default
+[2018-03-23 11:53:14] INFO : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e779ece: startup date [Fri Mar 23 11:53:14 CST 2018]; root of context hierarchy
+[2018-03-23 11:53:18] INFO : Tomcat initialized with port(s): 8099 (http)
+[2018-03-23 11:53:18] INFO : Mapping filter: 'metricsFilter' to: [/*]
+[2018-03-23 11:53:18] INFO : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-03-23 11:53:18] INFO : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-03-23 11:53:18] INFO : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-03-23 11:53:18] INFO : Mapping filter: 'requestContextFilter' to: [/*]
+[2018-03-23 11:53:18] INFO : Mapping filter: 'springSecurityFilterChain' to: [/*]
+[2018-03-23 11:53:18] INFO : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[2018-03-23 11:53:18] INFO : Mapping filter: 'applicationContextIdFilter' to: [/*]
+[2018-03-23 11:53:18] INFO : Mapping servlet: 'dispatcherServlet' to [/]
+[2018-03-23 11:53:25] INFO : LiveReload server is running on port 35729
+[2018-03-23 11:53:25] INFO : Registering beans for JMX exposure on startup
+[2018-03-23 11:53:25] INFO : Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+[2018-03-23 11:53:25] INFO : Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+[2018-03-23 11:53:25] INFO : Tomcat started on port(s): 8099 (http)
+[2018-03-23 11:53:26] INFO : Started GwsWebApplication in 12.176 seconds (JVM running for 13.689)
+[2018-03-23 11:53:26] INFO : game cat web server is started!
+[2018-03-23 11:53:37] INFO : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7e779ece: startup date [Fri Mar 23 11:53:14 CST 2018]; root of context hierarchy
+[2018-03-23 11:54:07] INFO : Starting GwsWebApplication on wdMac.local with PID 2733 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-23 11:54:07] INFO : No active profile set, falling back to default profiles: default
+[2018-03-23 11:54:08] INFO : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ae2bf64: startup date [Fri Mar 23 11:54:08 CST 2018]; root of context hierarchy
+[2018-03-23 11:54:11] INFO : Tomcat initialized with port(s): 8099 (http)
+[2018-03-23 11:54:11] INFO : Mapping filter: 'metricsFilter' to: [/*]
+[2018-03-23 11:54:11] INFO : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-03-23 11:54:11] INFO : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-03-23 11:54:11] INFO : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-03-23 11:54:11] INFO : Mapping filter: 'requestContextFilter' to: [/*]
+[2018-03-23 11:54:11] INFO : Mapping filter: 'springSecurityFilterChain' to: [/*]
+[2018-03-23 11:54:11] INFO : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[2018-03-23 11:54:11] INFO : Mapping filter: 'applicationContextIdFilter' to: [/*]
+[2018-03-23 11:54:11] INFO : Mapping servlet: 'dispatcherServlet' to [/]
+[2018-03-23 11:54:15] INFO : LiveReload server is running on port 35729
+[2018-03-23 11:54:15] INFO : Registering beans for JMX exposure on startup
+[2018-03-23 11:54:15] INFO : Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+[2018-03-23 11:54:15] INFO : Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+[2018-03-23 11:54:15] INFO : Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+[2018-03-23 11:54:15] INFO : Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+[2018-03-23 11:54:15] INFO : Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+[2018-03-23 11:54:15] INFO : Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+[2018-03-23 11:54:15] INFO : Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+[2018-03-23 11:54:15] INFO : Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+[2018-03-23 11:54:16] INFO : Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+[2018-03-23 11:54:16] INFO : Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+[2018-03-23 11:54:16] INFO : Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+[2018-03-23 11:54:16] INFO : Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+[2018-03-23 11:54:16] INFO : Tomcat started on port(s): 8099 (http)
+[2018-03-23 11:54:16] INFO : Started GwsWebApplication in 8.809 seconds (JVM running for 9.86)
+[2018-03-23 11:54:16] INFO :  webApplication server is started!
+[2018-03-23 11:54:27] INFO : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2ae2bf64: startup date [Fri Mar 23 11:54:08 CST 2018]; root of context hierarchy
+[2018-03-23 12:16:18] INFO : Starting GwsWebApplication on wdMac.local with PID 2958 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-23 12:16:18] INFO : No active profile set, falling back to default profiles: default
+[2018-03-23 12:16:18] INFO : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60307dec: startup date [Fri Mar 23 12:16:18 CST 2018]; root of context hierarchy
+[2018-03-23 12:16:21] INFO : Tomcat initialized with port(s): 8099 (http)
+[2018-03-23 12:16:22] INFO : Mapping filter: 'metricsFilter' to: [/*]
+[2018-03-23 12:16:22] INFO : Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-03-23 12:16:22] INFO : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-03-23 12:16:22] INFO : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-03-23 12:16:22] INFO : Mapping filter: 'requestContextFilter' to: [/*]
+[2018-03-23 12:16:22] INFO : Mapping filter: 'springSecurityFilterChain' to: [/*]
+[2018-03-23 12:16:22] INFO : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[2018-03-23 12:16:22] INFO : Mapping filter: 'applicationContextIdFilter' to: [/*]
+[2018-03-23 12:16:22] INFO : Mapping servlet: 'dispatcherServlet' to [/]
+[2018-03-23 12:16:26] INFO : LiveReload server is running on port 35729
+[2018-03-23 12:16:27] INFO : Registering beans for JMX exposure on startup
+[2018-03-23 12:16:27] INFO : Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+[2018-03-23 12:16:27] INFO : Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+[2018-03-23 12:16:27] INFO : Tomcat started on port(s): 8099 (http)
+[2018-03-23 12:16:27] INFO : Started GwsWebApplication in 9.166 seconds (JVM running for 10.454)
+[2018-03-23 12:16:27] INFO :  webApplication server is started!
+[2018-03-23 12:16:40] INFO : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@60307dec: startup date [Fri Mar 23 12:16:18 CST 2018]; root of context hierarchy
