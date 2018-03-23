@@ -31,7 +31,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 基于结果集的排序对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public final class OrderByValue implements Comparable<OrderByValue> {
     

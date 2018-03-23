@@ -27,7 +27,7 @@ import com.gws.rdb.sharding.parser.result.merger.AggregationColumn;
 /**
  * 归并计算单元的抽象类.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public abstract class AbstractAggregationUnit implements AggregationUnit {
     

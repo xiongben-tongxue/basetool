@@ -23,7 +23,7 @@ import com.google.common.base.Optional;
 /**
  * MySQL的DELETE语句访问器.
  * 
- * @author wangdong, zhangliang
+ * @author wangdong, wangdong
  */
 public class MySQLDeleteVisitor extends AbstractMySQLVisitor {
     

@@ -22,7 +22,7 @@ import com.gws.rdb.sharding.api.strategy.common.SingleKeyShardingAlgorithm;
 /**
  * 单分片键的分表算法接口.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public interface SingleKeyTableShardingAlgorithm<T extends Comparable<?>> extends SingleKeyShardingAlgorithm<T>, TableShardingAlgorithm {
 }

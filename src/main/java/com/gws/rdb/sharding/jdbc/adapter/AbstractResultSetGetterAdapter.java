@@ -42,7 +42,7 @@ import lombok.Setter;
 /**
  * 处理多结果集的适配器.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @RequiredArgsConstructor
 public abstract class AbstractResultSetGetterAdapter extends AbstractUnsupportedOperationResultSet {

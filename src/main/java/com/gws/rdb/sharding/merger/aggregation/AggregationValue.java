@@ -24,7 +24,7 @@ import com.gws.rdb.sharding.merger.common.ResultSetQueryIndex;
 /**
  * 聚合值接口.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public interface AggregationValue {
     

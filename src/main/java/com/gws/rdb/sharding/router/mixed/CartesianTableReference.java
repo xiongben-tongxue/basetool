@@ -29,7 +29,7 @@ import lombok.ToString;
 /**
  * 笛卡尔积表路由组.
  * 
- * @author wangdong, zhangliang
+ * @author wangdong, wangdong
  */
 @ToString
 @Getter

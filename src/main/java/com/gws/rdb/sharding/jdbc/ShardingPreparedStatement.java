@@ -42,7 +42,7 @@ import com.gws.utils.GwsLoggerTypeEnum;
 /**
  * 支持分片的预编译语句对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public final class ShardingPreparedStatement extends AbstractPreparedStatementAdapter {
     

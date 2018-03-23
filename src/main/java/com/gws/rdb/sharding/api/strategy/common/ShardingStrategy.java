@@ -30,7 +30,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 分片策略.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @RequiredArgsConstructor
 public class ShardingStrategy {

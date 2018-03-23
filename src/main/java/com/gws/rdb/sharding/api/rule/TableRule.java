@@ -39,7 +39,7 @@ import com.gws.rdb.sharding.api.strategy.table.TableShardingStrategy;
 /**
  * 表规则配置对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public final class TableRule {
     

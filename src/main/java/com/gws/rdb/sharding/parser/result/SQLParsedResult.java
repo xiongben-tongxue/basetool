@@ -30,7 +30,7 @@ import lombok.ToString;
 /**
  * SQL解析结果.
  * 
- * @author wangdong, zhangliang
+ * @author wangdong, wangdong
  */
 @Getter
 @ToString

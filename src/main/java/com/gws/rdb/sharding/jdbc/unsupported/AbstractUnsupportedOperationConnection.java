@@ -38,7 +38,7 @@ import com.gws.rdb.sharding.jdbc.adapter.WrapperAdapter;
 /**
  * 声明不支持操作的数据库连接对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public abstract class AbstractUnsupportedOperationConnection extends WrapperAdapter implements Connection {
     

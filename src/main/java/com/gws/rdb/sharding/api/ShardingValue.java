@@ -35,7 +35,7 @@ import com.google.common.collect.Range;
  * 不支持{@code , >, <=, >=, LIKE, NOT, NOT IN}.
  * </p>
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @Getter
@@ -80,7 +80,7 @@ public final class ShardingValue<T extends Comparable<?>> {
     /**
      * 分片值类型.
      * 
-     * @author zhangliang
+     * @author wangdong
      */
     public enum ShardingValueType {
         SINGLE, LIST, RANGE

@@ -52,7 +52,7 @@ import lombok.Setter;
 /**
  * 解析过程的上下文对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @Getter
 public final class ParseContext {

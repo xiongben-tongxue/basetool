@@ -42,7 +42,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * SQL解析器工厂.
  * 
- * @author wangdong, zhangliang
+ * @author wangdong, wangdong
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 @Slf4j

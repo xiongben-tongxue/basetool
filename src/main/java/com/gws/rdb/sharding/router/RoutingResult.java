@@ -24,7 +24,7 @@ import com.gws.rdb.sharding.parser.result.router.SQLBuilder;
 /**
  *  路由结果接口.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public interface RoutingResult {
     

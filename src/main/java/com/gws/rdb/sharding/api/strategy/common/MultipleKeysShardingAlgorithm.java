@@ -24,7 +24,7 @@ import com.gws.rdb.sharding.api.ShardingValue;
 /**
  * 多片键分片法接口.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public interface MultipleKeysShardingAlgorithm extends ShardingAlgorithm {
     

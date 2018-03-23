@@ -28,7 +28,7 @@ import java.sql.SQLFeatureNotSupportedException;
 /**
  * 声明不支持操作的数据结果集对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public abstract class AbstractUnsupportedOperationResultSet extends AbstractResultSetUpdaterAdapter {
     

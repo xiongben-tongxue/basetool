@@ -20,7 +20,7 @@ package com.gws.rdb.sharding.exception;
 /**
  * JDBC分片抛出的异常基类.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public class ShardingJdbcException extends RuntimeException {
     

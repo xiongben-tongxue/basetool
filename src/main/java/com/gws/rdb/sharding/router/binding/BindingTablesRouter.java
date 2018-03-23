@@ -32,7 +32,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * Binding库表路由类.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @Slf4j
 public class BindingTablesRouter {

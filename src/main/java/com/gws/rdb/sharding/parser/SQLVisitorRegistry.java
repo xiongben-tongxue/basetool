@@ -34,7 +34,7 @@ import lombok.NoArgsConstructor;
 /**
  * SQL访问器注册表.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class SQLVisitorRegistry {

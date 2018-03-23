@@ -29,7 +29,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 结果归并动态代理抽象类.
  * 
- * @author zhangliang
+ * @author wangdong
  * 
  * @param <T> 结果集类型
  */

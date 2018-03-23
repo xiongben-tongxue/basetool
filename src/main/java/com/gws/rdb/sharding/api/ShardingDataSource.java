@@ -37,7 +37,7 @@ import com.gws.rdb.sharding.router.SQLRouteEngine;
 /**
  * 支持分片的数据源.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public class ShardingDataSource extends AbstractDataSourceAdapter {
     

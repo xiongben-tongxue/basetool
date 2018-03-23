@@ -30,7 +30,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * Binding表规则配置对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @RequiredArgsConstructor
 @Getter

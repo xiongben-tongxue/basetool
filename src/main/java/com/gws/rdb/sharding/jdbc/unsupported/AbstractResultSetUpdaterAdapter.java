@@ -39,7 +39,7 @@ import com.gws.rdb.sharding.jdbc.adapter.WrapperAdapter;
 /**
  * 更新结果集的适配器.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public abstract class AbstractResultSetUpdaterAdapter extends WrapperAdapter implements ResultSet {
     

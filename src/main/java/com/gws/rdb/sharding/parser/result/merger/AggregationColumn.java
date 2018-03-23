@@ -31,7 +31,7 @@ import lombok.ToString;
 /**
  * 聚合列对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @Getter
 @AllArgsConstructor

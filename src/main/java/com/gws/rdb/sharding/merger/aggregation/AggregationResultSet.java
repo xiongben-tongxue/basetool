@@ -33,7 +33,7 @@ import lombok.Getter;
 /**
  * 聚合结果集.
  * 
- * @author wangdong, zhangliang
+ * @author wangdong, wangdong
  */
 @Getter
 public final class AggregationResultSet extends AbstractShardingResultSet {

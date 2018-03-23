@@ -33,7 +33,7 @@ import com.gws.rdb.sharding.jdbc.ShardingStatement;
 /**
  * 声明不支持操作的预编译语句对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public abstract class AbstractUnsupportedOperationPreparedStatement extends ShardingStatement implements PreparedStatement {
     

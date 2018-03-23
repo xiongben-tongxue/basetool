@@ -23,7 +23,7 @@ import com.google.common.base.Optional;
 /**
  * MySQL的UPDATE语句访问器.
  * 
- * @author wangdong, zhangliang
+ * @author wangdong, wangdong
  */
 public class MySQLUpdateVisitor extends AbstractMySQLVisitor {
     

@@ -24,7 +24,7 @@ import com.gws.rdb.sharding.api.ShardingValue;
 /**
  * 单片键分片法接口.
  * 
- * @author zhangliang
+ * @author wangdong
  * 
  * @param <T> 片键类型
  */

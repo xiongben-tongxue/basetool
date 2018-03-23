@@ -31,7 +31,7 @@ import lombok.ToString;
 /**
  * 笛卡尔积路由数据源.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @Getter
 @ToString

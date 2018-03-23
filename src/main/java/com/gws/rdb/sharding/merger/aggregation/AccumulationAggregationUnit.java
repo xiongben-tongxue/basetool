@@ -27,7 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 累加聚合单元.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @RequiredArgsConstructor
 @Slf4j

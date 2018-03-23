@@ -28,7 +28,7 @@ import lombok.ToString;
 /**
  * 排序列对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @Getter
@@ -58,7 +58,7 @@ public final class OrderByColumn {
     /**
      * 排序类型.
      * 
-     * @author wangdong, zhangliang
+     * @author wangdong, wangdong
      */
     public enum OrderByType {
         ASC, 

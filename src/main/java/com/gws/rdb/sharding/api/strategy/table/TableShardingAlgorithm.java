@@ -22,7 +22,7 @@ import com.gws.rdb.sharding.api.strategy.common.ShardingAlgorithm;
 /**
  * 分表算法接口.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public interface TableShardingAlgorithm extends ShardingAlgorithm {
 }

@@ -43,7 +43,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 不包含OR语句的SQL构建器解析.
  * 
- * @author wangdong, zhangliang
+ * @author wangdong, wangdong
  */
 @RequiredArgsConstructor
 @Slf4j

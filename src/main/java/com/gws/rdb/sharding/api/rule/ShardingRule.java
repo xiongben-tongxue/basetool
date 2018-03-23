@@ -36,7 +36,7 @@ import lombok.Getter;
 /**
  * 分库分表规则配置对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @AllArgsConstructor
 @Getter

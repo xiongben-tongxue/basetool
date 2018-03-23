@@ -22,7 +22,7 @@ import com.gws.rdb.sharding.exception.DatabaseTypeUnsupportedException;
 /**
  * 支持的数据库类型.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public enum DatabaseType {
     

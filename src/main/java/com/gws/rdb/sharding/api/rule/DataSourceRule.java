@@ -27,7 +27,7 @@ import com.google.common.base.Preconditions;
 /**
  * 数据源配置对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public final class DataSourceRule {
     

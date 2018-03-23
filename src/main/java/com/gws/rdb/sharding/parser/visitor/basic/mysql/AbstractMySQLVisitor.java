@@ -40,7 +40,7 @@ import com.gws.rdb.sharding.util.SQLUtil;
 /**
  * MySQL解析基础访问器.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public abstract class AbstractMySQLVisitor extends MySqlOutputVisitor implements SQLVisitor {
     

@@ -28,7 +28,7 @@ import lombok.ToString;
 /**
  * Binding表路由结果.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @ToString(callSuper = true)
 final class BindingRoutingResult extends SingleRoutingResult {

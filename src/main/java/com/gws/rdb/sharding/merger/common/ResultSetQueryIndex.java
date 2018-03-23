@@ -28,7 +28,7 @@ import lombok.Getter;
  * 如果索引类型是String, 表示根据字段返回值名称查询.
  * </p>
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @Getter
 public final class ResultSetQueryIndex {

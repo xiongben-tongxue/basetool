@@ -27,7 +27,7 @@ import com.gws.rdb.sharding.parser.result.merger.MergeContext;
 /**
  * 迭代结果集.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public final class IteratorResultSet extends AbstractShardingResultSet {
     

@@ -32,7 +32,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 多线程执行预编译语句对象请求的执行器.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @RequiredArgsConstructor
 public final class PreparedStatementExecutor {

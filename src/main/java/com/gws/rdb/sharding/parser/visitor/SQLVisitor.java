@@ -23,7 +23,7 @@ import com.gws.rdb.sharding.parser.result.router.SQLBuilder;
 /**
  * SQL解析基础访问器接口.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public interface SQLVisitor {
     

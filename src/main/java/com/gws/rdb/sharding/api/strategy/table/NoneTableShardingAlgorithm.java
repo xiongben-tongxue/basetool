@@ -24,7 +24,7 @@ import com.gws.rdb.sharding.api.ShardingValue;
 /**
  * 无需分表的分片算法.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public final class NoneTableShardingAlgorithm implements SingleKeyTableShardingAlgorithm<String>, MultipleKeysTableShardingAlgorithm {
     

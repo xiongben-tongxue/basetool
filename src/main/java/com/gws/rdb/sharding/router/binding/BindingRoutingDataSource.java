@@ -29,7 +29,7 @@ import lombok.ToString;
 /**
  * Binding表路由数据源.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @Getter
 @ToString(callSuper = true)

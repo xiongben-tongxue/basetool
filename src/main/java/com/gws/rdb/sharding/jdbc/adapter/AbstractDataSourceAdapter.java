@@ -29,7 +29,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 数据源适配类.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @RequiredArgsConstructor
 public abstract class AbstractDataSourceAdapter extends AbstractUnsupportedOperationDataSource {

@@ -30,7 +30,7 @@ import lombok.ToString;
 /**
  * 条件对象上下文.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @ToString
 public final class ConditionContext {

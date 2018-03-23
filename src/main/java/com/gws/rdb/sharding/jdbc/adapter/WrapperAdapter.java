@@ -28,7 +28,7 @@ import com.gws.rdb.sharding.jdbc.util.JdbcMethodInvocation;
 /**
  * JDBC Wrapper适配类.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public class WrapperAdapter implements Wrapper {
     

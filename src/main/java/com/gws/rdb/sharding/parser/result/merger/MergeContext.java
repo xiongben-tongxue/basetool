@@ -29,7 +29,7 @@ import lombok.ToString;
 /**
  * 结果归并上下文.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @Getter
 @ToString
@@ -68,7 +68,7 @@ public final class MergeContext {
     /**
      * 结果集类型.
      * 
-     * @author zhangliang
+     * @author wangdong
      */
     public enum ResultSetType {
         Iterator, OrderBy, Aggregate, GroupBy

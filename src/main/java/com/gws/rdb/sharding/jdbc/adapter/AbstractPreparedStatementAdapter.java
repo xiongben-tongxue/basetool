@@ -45,7 +45,7 @@ import lombok.Getter;
  * 封装与分片核心逻辑不相关的方法.
  * </p>
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public abstract class AbstractPreparedStatementAdapter extends AbstractUnsupportedOperationPreparedStatement {
     

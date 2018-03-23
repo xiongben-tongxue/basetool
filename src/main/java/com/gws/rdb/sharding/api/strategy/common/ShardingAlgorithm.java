@@ -20,7 +20,7 @@ package com.gws.rdb.sharding.api.strategy.common;
 /**
  * 分片算法的标识接口.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public interface ShardingAlgorithm {
 }

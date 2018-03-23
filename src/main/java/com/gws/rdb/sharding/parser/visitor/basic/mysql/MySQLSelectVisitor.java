@@ -47,7 +47,7 @@ import com.gws.rdb.sharding.parser.result.merger.OrderByColumn.OrderByType;
 /**
  * MySQL的SELECT语句访问器.
  * 
- * @author wangdong, zhangliang
+ * @author wangdong, wangdong
  */
 public class MySQLSelectVisitor extends AbstractMySQLVisitor {
     

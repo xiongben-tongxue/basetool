@@ -29,7 +29,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 支持分片的结果集抽象类.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @Slf4j
 public abstract class AbstractShardingResultSet extends AbstractResultSetAdapter {

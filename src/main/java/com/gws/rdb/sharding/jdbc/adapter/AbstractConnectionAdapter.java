@@ -29,7 +29,7 @@ import com.gws.rdb.sharding.metrics.ThreadLocalObjectContainer;
 /**
  * 数据库连接适配类.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public abstract class AbstractConnectionAdapter extends AbstractUnsupportedOperationConnection {
     

@@ -39,7 +39,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 笛卡尔积的库表路由.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @RequiredArgsConstructor
 @Slf4j

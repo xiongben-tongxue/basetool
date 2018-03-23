@@ -22,7 +22,7 @@ import com.gws.rdb.sharding.api.strategy.common.MultipleKeysShardingAlgorithm;
 /**
  * 多片键分表算法接口.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public interface MultipleKeysTableShardingAlgorithm extends MultipleKeysShardingAlgorithm, TableShardingAlgorithm {
 }

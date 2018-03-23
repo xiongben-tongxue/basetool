@@ -44,7 +44,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 支持分片的数据库连接.
  * 
- * @author zhangliang
+ * @author wangdong
  * @author wangdong
  */
 @RequiredArgsConstructor

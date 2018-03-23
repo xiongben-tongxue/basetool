@@ -30,7 +30,7 @@ import lombok.ToString;
 /**
  * Binding表路由表单元.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @ToString(callSuper = true)
 final class BindingRoutingTableFactor extends SingleRoutingTableFactor {

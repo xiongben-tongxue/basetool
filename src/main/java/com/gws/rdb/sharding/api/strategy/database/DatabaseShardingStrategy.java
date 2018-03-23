@@ -24,7 +24,7 @@ import com.gws.rdb.sharding.api.strategy.common.ShardingStrategy;
 /**
  * 分库策略.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public final class DatabaseShardingStrategy extends ShardingStrategy {
     

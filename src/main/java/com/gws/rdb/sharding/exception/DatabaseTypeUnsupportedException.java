@@ -20,7 +20,7 @@ package com.gws.rdb.sharding.exception;
 /**
  * 不支持的数据库抛出的异常.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 public class DatabaseTypeUnsupportedException extends RuntimeException {
     

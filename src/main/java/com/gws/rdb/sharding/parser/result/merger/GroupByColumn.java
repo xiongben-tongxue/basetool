@@ -26,7 +26,7 @@ import lombok.ToString;
 /**
  * 分组列对象.
  * 
- * @author zhangliang
+ * @author wangdong
  */
 @RequiredArgsConstructor
 @Getter
