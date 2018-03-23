@@ -436,11 +436,13 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 * 自定义更新update方法
 	 * 
 	 * @author wangdong 2016年7月16日
-	 * @param id
+	 * @param t
+	 * @param updateFileds
 	 * @param where
 	 * @return
 	 */
 	@Transactional(readOnly=false,propagation=Propagation.REQUIRED)
+	@Override
 	public int  update(T t, BaseQuery where, String... updateFileds){
 		//自动更新utime属性
 		CriteriaBuilder cb =baseEm.getEntityManagerFactory().getCriteriaBuilder();
@@ -471,11 +473,13 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 * 根据唯一主键更新相关数据
 	 * 
 	 * @author wangdong 2016年7月16日
+	 * @param t
 	 * @param id
-	 * @param where
+	 * @param updateFileds
 	 * @return
 	 */
 	@Transactional(readOnly=false,propagation=Propagation.REQUIRED)
+	@Override
 	public int updateById(T t,ID id,String... updateFileds){
 		//自动更新utime属性
 		CriteriaBuilder cb =baseEm.getEntityManagerFactory().getCriteriaBuilder();
