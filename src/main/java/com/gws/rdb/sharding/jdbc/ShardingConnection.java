@@ -45,7 +45,7 @@ import lombok.RequiredArgsConstructor;
  * 支持分片的数据库连接.
  * 
  * @author zhangliang
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor
 public final class ShardingConnection extends AbstractConnectionAdapter {

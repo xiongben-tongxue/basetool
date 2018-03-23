@@ -36,7 +36,7 @@ import lombok.ToString;
 /**
  * 分组结果集数据存储对象.
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 @ToString
 public class GroupByValue implements AggregationValue, Comparable<GroupByValue> {

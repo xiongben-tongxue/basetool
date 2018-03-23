@@ -55,7 +55,7 @@ public final class AggregationColumn {
     /**
      * 聚合函数类型.
      * 
-     * @author gaohongtao
+     * @author wangdong
      */
     public enum AggregationType {
         MAX, MIN, SUM, COUNT, AVG

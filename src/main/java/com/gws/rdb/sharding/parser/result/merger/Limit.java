@@ -24,7 +24,7 @@ import lombok.ToString;
 /**
  * 分页对象.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor
 @Getter

@@ -26,7 +26,7 @@ import com.gws.rdb.sharding.parser.visitor.or.node.AbstractOrASTNode;
 /**
  * OR表达式解析类.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public final class OrParser {
     

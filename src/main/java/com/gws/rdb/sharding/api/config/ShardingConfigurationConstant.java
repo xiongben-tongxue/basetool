@@ -25,7 +25,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 配置项常量.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor
 @Getter

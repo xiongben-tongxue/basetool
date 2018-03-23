@@ -20,7 +20,7 @@ package com.gws.rdb.sharding.parser.result.router;
 /**
  * SQL语句类型.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public enum SQLStatementType {
     INSERT, DELETE, UPDATE, SELECT

@@ -27,7 +27,7 @@ import com.gws.rdb.sharding.merger.common.ResultSetUtil;
 /**
  * 分组函数动态代理.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public class GroupByInvokeHandler extends AbstractMergerInvokeHandler<GroupByResultSet> {
     

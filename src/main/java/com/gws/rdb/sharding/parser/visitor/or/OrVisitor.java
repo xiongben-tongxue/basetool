@@ -32,7 +32,7 @@ import com.gws.rdb.sharding.parser.visitor.or.node.SimpleOrASTNode;
 /**
  * 逻辑OR条件访问器.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public class OrVisitor extends AbstractMySQLVisitor {
     

@@ -44,7 +44,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * SQL路由引擎.
  * 
- * @author gaohongtao, zhangiang
+ * @author wangdong, zhangiang
  */
 @RequiredArgsConstructor
 @Slf4j

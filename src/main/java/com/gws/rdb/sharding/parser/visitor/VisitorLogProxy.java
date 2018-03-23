@@ -32,7 +32,7 @@ import net.sf.cglib.proxy.MethodProxy;
 /**
  * SQL解析日志打印.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 @Slf4j

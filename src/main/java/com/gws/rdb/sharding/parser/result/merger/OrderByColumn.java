@@ -58,7 +58,7 @@ public final class OrderByColumn {
     /**
      * 排序类型.
      * 
-     * @author gaohongtao, zhangliang
+     * @author wangdong, zhangliang
      */
     public enum OrderByType {
         ASC, 

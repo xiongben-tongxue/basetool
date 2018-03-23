@@ -27,7 +27,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 平均值聚合单元.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor
 @Slf4j

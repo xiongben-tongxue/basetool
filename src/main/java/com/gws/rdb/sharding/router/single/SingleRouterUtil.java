@@ -30,7 +30,7 @@ import lombok.AllArgsConstructor;
 /**
  * 路由工具类.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class SingleRouterUtil {

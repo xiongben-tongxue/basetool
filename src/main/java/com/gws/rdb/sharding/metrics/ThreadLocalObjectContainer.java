@@ -27,7 +27,7 @@ import java.util.Map;
  * 多个ShardingDataSource使用静态对象会造成数据污染, 故使用该类来将这些对象绑定到ThreadLocal中.
  * </p>
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public final class ThreadLocalObjectContainer {
     

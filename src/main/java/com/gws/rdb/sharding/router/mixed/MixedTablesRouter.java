@@ -34,7 +34,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 混合多库表路由类.
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 @RequiredArgsConstructor
 @Slf4j

@@ -25,7 +25,7 @@ import com.gws.rdb.sharding.parser.result.merger.AggregationColumn;
 /**
  * 归并计算单元接口.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public interface AggregationUnit {
     

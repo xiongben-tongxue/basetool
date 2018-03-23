@@ -27,7 +27,7 @@ import lombok.ToString;
 /**
  * 表解析对象.
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 @RequiredArgsConstructor
 @Getter

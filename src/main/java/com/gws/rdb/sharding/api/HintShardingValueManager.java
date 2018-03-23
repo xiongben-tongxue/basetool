@@ -36,7 +36,7 @@ import lombok.AllArgsConstructor;
 /**
  * 通过线索传递分片值的管理器.
  *
- * @author gaohongtao
+ * @author wangdong
  */
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public final class HintShardingValueManager {

@@ -31,7 +31,7 @@ import lombok.ToString;
 /**
  * SQL最小执行单元.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @Getter
 @ToString

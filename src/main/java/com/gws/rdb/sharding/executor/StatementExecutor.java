@@ -33,7 +33,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 多线程执行静态语句对象请求的执行器.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor
 public final class StatementExecutor {

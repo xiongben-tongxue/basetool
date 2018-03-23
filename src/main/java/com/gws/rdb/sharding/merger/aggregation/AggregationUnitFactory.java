@@ -25,7 +25,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 聚合函数结果集归并单元工厂.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 public final class AggregationUnitFactory {

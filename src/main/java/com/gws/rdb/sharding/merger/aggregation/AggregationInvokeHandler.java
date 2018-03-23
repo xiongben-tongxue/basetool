@@ -30,7 +30,7 @@ import com.gws.rdb.sharding.util.SQLUtil;
 /**
  * 聚合函数动态代理.
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 public final class AggregationInvokeHandler extends AbstractMergerInvokeHandler<AggregationResultSet> {
     

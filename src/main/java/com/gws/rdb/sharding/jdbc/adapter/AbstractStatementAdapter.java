@@ -29,7 +29,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 静态语句对象适配类.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor
 public abstract class AbstractStatementAdapter extends AbstractUnsupportedOperationStatement {

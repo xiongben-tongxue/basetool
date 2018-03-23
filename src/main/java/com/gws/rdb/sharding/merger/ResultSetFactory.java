@@ -39,7 +39,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 创建归并分片结果集的工厂.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 @Slf4j

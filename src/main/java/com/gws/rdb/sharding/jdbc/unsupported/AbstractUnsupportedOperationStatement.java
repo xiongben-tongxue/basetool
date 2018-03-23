@@ -27,7 +27,7 @@ import com.gws.rdb.sharding.jdbc.adapter.WrapperAdapter;
 /**
  * 声明不支持操作的静态语句对象.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public abstract class AbstractUnsupportedOperationStatement extends WrapperAdapter implements Statement {
     

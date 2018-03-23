@@ -22,7 +22,7 @@ import java.util.List;
 /**
  * 合并执行单元.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public interface MergeUnit<I, O> {
     

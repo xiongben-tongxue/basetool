@@ -38,7 +38,7 @@ import lombok.ToString;
 /**
  * 单表路由结果.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @ToString
 public class SingleRoutingResult implements RoutingResult {

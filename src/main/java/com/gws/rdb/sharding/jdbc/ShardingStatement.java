@@ -45,7 +45,7 @@ import lombok.Setter;
 /**
  * 支持分片的静态语句对象.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public class ShardingStatement extends AbstractStatementAdapter {
     

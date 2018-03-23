@@ -29,7 +29,7 @@ import lombok.AllArgsConstructor;
 /**
  * 只包含OR的节点.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @AllArgsConstructor
 public class SimpleOrASTNode extends AbstractOrASTNode {

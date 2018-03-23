@@ -20,7 +20,7 @@ package com.gws.rdb.sharding.executor;
 /**
  * 执行单元.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public interface ExecuteUnit<I, O> {
     

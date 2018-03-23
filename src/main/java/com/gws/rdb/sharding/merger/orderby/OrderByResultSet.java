@@ -29,7 +29,7 @@ import com.gws.rdb.sharding.parser.result.merger.OrderByColumn;
 /**
  * 排序结果集处理.
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 public final class OrderByResultSet extends AbstractShardingResultSet {
     

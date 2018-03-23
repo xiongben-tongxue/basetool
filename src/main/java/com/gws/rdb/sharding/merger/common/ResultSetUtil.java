@@ -35,7 +35,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 结果集处理工具类.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor(access = AccessLevel.PRIVATE)
 public final class ResultSetUtil {

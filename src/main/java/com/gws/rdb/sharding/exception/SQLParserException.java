@@ -20,7 +20,7 @@ package com.gws.rdb.sharding.exception;
 /**
  * SQL解析异常.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public final class SQLParserException extends ShardingJdbcException {
     

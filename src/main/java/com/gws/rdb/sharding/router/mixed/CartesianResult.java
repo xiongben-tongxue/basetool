@@ -31,7 +31,7 @@ import lombok.ToString;
 /**
  * 笛卡尔积路由结果.
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 @ToString
 final class CartesianResult implements RoutingResult {

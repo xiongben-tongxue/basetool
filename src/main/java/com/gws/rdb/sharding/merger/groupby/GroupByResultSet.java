@@ -58,7 +58,7 @@ import lombok.extern.slf4j.Slf4j;
  * map-reduce过程发生在nextForSharding()方法第一次被调用的时候, 将相同group-key的结果集放在一起,并同时做order by的排序处理(相当于shuffle过程).
  * </p>
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 @Slf4j
 public final class GroupByResultSet extends AbstractShardingResultSet {

@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 /**
  * 度量工具上下文.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public final class MetricsContext {
     

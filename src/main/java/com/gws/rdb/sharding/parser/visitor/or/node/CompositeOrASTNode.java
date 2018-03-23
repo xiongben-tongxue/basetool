@@ -28,7 +28,7 @@ import lombok.Getter;
 /**
  * 存在外层条件的节点.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @Getter
 public class CompositeOrASTNode extends AbstractOrASTNode {

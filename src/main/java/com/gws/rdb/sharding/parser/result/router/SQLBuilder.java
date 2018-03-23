@@ -28,7 +28,7 @@ import com.google.common.base.Joiner;
 /**
  * SQL构建器.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 public class SQLBuilder implements Appendable {
 	    

@@ -31,7 +31,7 @@ import lombok.Getter;
 /**
  * 抽象的OR语法树节点.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @Getter(AccessLevel.PROTECTED)
 public abstract class AbstractOrASTNode {

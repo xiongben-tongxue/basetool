@@ -26,7 +26,7 @@ import lombok.ToString;
 /**
  * 分组结果集数据存储索引.
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 @EqualsAndHashCode
 @ToString

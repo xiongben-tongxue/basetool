@@ -28,7 +28,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * SQL路由结果.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor
 @Getter

@@ -24,7 +24,7 @@ import lombok.AllArgsConstructor;
 /**
  * SQL工具类.
  * 
- * @author gaohongtao
+ * @author wangdong
  */
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 public class SQLUtil {

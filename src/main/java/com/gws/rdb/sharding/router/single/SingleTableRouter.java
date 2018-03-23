@@ -42,7 +42,7 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * 单逻辑表的库表路由.
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 @Slf4j
 public final class SingleTableRouter {

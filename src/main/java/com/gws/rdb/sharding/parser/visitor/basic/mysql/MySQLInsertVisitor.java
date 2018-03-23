@@ -24,7 +24,7 @@ import com.gws.rdb.sharding.parser.result.router.Condition.BinaryOperator;
 /**
  * MySQL的INSERT语句访问器.
  * 
- * @author gaohongtao, zhangliang
+ * @author wangdong, zhangliang
  */
 public class MySQLInsertVisitor extends AbstractMySQLVisitor {
     

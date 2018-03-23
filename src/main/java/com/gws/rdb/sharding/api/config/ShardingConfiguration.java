@@ -24,7 +24,7 @@ import lombok.RequiredArgsConstructor;
 /**
  * 配置类.
  *
- * @author gaohongtao
+ * @author wangdong
  */
 @RequiredArgsConstructor
 public final class ShardingConfiguration {
