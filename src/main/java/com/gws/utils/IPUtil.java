@@ -14,7 +14,7 @@ public class IPUtil {
 	 *
 	 * 【获取请求ip地址】
 	 *
-	 * @author liunan 2016年4月17日
+	 * @author wangdong 2016年4月17日
 	 * @param request
 	 * @return
 	 */

@@ -774,7 +774,7 @@ public class DateUtil {
 	 * 
 	 * 【将字符串转为unix时间戳 按照指定格式】
 	 * 
-	 * @author liunan 2016年4月12日
+	 * @author wangdong 2016年4月12日
 	 * @param userTime
 	 * @param format
 	 * @return

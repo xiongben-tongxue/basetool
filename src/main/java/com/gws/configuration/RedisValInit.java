@@ -15,7 +15,7 @@ import com.gws.utils.GwsUtil;
  * 【redisKey值初始化】
  *
  * @version 
- * @author liunan  2016年5月9日 下午5:57:13
+ * @author wangdong  2016年5月9日 下午5:57:13
  *
  */
 @Configuration

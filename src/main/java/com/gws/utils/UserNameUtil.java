@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * 【姓名】
  *
- * @author liunan 2017/8/4 下午4:22
+ * @author wangdong 2017/8/4 下午4:22
  */
 public class UserNameUtil {
 

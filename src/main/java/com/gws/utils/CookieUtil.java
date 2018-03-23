@@ -12,7 +12,7 @@ import java.net.URLDecoder;
 /**
  * cookie 工具类
  * @version 1.0
- * @author liunan<liunan@zjyushi.com>
+ * @author wangdong<wangdong@zjyushi.com>
  * @data
  */
 public class CookieUtil {
