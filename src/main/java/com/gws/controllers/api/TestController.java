@@ -25,7 +25,7 @@ public class TestController extends BaseApiController {
     private TestManageService testManageService;
 
     /**
-     * 新用户首登欢迎语
+     * 练习题
      * @return
      */
     @RequestMapping("checkYears")
