@@ -45,3 +45,9 @@
 [2018-03-23 16:30:01] INFO : Starting GwsWebApplication on wdMac.local with PID 5674 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
 [2018-03-23 16:30:01] INFO : No active profile set, falling back to default profiles: default
 [2018-03-23 16:30:11] INFO : Started GwsWebApplication in 9.375 seconds (JVM running for 10.544)
+[2018-03-23 17:24:12] INFO : Starting GwsWebApplication on wdMac.local with PID 6205 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-23 17:24:12] INFO : No active profile set, falling back to default profiles: default
+[2018-03-23 17:24:23] INFO : Started GwsWebApplication in 11.252 seconds (JVM running for 13.595)
+[2018-03-23 18:33:10] INFO : Starting GwsWebApplication on wdMac.local with PID 6964 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-23 18:33:10] INFO : No active profile set, falling back to default profiles: default
+[2018-03-23 18:33:21] INFO : Started GwsWebApplication in 11.364 seconds (JVM running for 13.011)
