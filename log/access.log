@@ -58,3 +58,6 @@
 [2018-03-23 18:37:51] INFO : ip=127.0.0.1`url=/api/fzm/checkYears`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1521801471094ms`port=null`action=`userid=null`sid=null`
 [2018-03-23 18:38:47] INFO : ip=127.0.0.1`url=/api/fzm/checkYears`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1521801527084ms`port=null`action=`userid=null`sid=null`
 [2018-03-23 18:40:20] INFO : ip=127.0.0.1`url=/api/fzm/checkYears`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1521801620056ms`port=null`action=`userid=null`sid=null`
+[2018-03-23 18:53:23] INFO : Starting GwsWebApplication on wdMac.local with PID 7326 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-23 18:53:23] INFO : No active profile set, falling back to default profiles: default
+[2018-03-23 18:53:32] INFO : Started GwsWebApplication in 9.562 seconds (JVM running for 10.721)
