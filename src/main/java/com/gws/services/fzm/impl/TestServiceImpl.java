@@ -1,7 +1,7 @@
 package com.gws.services.fzm.impl;
 
 import com.gws.entity.DateTest;
-import com.gws.repositories.master.test.DateTestQuery;
+import com.gws.repositories.query.test.DateTestQuery;
 import com.gws.repositories.slave.test.DateTestSlave;
 import com.gws.services.fzm.TestService;
 import org.apache.commons.collections.CollectionUtils;

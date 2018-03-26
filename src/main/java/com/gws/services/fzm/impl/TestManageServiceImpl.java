@@ -2,10 +2,12 @@ package com.gws.services.fzm.impl;
 
 import com.gws.dto.OperationResult;
 import com.gws.dto.test.Year;
+import com.gws.entity.CertIdMessage;
 import com.gws.entity.DateTest;
 import com.gws.enums.date.MonthEnum;
 import com.gws.services.fzm.TestManageService;
 import com.gws.services.fzm.TestService;
+import com.gws.services.message.MessageService;
 import org.apache.commons.collections4.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,6 +26,9 @@ public class TestManageServiceImpl implements TestManageService {
 
     @Autowired
     private TestService testService;
+
+    @Autowired
+    private MessageService messageService;
 
     @Override
     public OperationResult<List<Year>> checkYears() {
@@ -68,5 +73,32 @@ public class TestManageServiceImpl implements TestManageService {
        });
 
         return new OperationResult<>(yearArrayList);
+    }
+
+    /**
+     * 证书消息的查询类
+     *
+     * @return
+     */
+    @Override
+    public OperationResult<List<CertIdMessage>> listCertMessage() {
+
+        List<CertIdMessage> certIdMessages = messageService.listCertIdMessage();
+
+        return new OperationResult<>(certIdMessages);
+    }
+
+    /**
+     * 根据主键查询指定一条的数据信息
+     *
+     * @param id
+     * @return
+     */
+    @Override
+    public OperationResult<CertIdMessage> getCertMessage(Long id) {
+
+        CertIdMessage certIdMessage = messageService.getCertMessage(id);
+
+        return new OperationResult<>(certIdMessage);
     }
 }
