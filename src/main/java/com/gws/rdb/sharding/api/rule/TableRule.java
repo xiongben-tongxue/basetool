@@ -99,9 +99,11 @@ public final class TableRule {
                 this.actualTables.add(new DataNode(actualDatabaseTable.get(0), actualDatabaseTable.get(1)));
             } else {
             	//ds_0 ss_0 暂时hardcode
-            	DataSource masterDs =dataSourceRule.getDataSource("ds_0");
-            	DataSource slaveDs =dataSourceRule.getDataSource("ss_0");
-            	String dsName = masterDs==null?"ss_0":"ds_0";
+                //主库
+            	DataSource masterDs =dataSourceRule.getDataSource("md_0");
+            	//从库
+            	DataSource slaveDs =dataSourceRule.getDataSource("sd_0");
+            	String dsName = masterDs==null?"sd_0":"md_0";
             	DataNode node = new DataNode(dsName, actualTable);
                 this.actualTables.add(node);
             }
