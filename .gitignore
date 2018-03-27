@@ -23,5 +23,6 @@ hs_err_pid*
 
 *.DS_Store
 *.log
-/target/classes/application.properties
-*.workspace.xml
+/target
+.idea/workspace.xml
+.gitignore.swp
