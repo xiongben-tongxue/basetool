@@ -253,3 +253,28 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'test.t_cert_id
 [2018-03-26 12:06:15] INFO : Starting GwsWebApplication on wdMac.local with PID 2507 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
 [2018-03-26 12:06:15] INFO : No active profile set, falling back to default profiles: default
 [2018-03-26 12:06:27] INFO : Started GwsWebApplication in 11.874 seconds (JVM running for 13.143)
+[2018-03-26 13:42:14] INFO : Starting GwsWebApplication on wdMac.local with PID 3246 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 13:42:14] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 13:42:47] INFO : Starting GwsWebApplication on wdMac.local with PID 3301 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 13:42:47] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 13:43:42] INFO : Starting GwsWebApplication on wdMac.local with PID 3347 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 13:43:42] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 13:43:51] INFO : Started GwsWebApplication in 9.338 seconds (JVM running for 10.57)
+[2018-03-26 13:59:56] INFO : Starting GwsWebApplication on wdMac.local with PID 3546 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 13:59:56] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 14:00:06] INFO : Started GwsWebApplication in 9.684 seconds (JVM running for 10.8)
+[2018-03-26 14:01:08] INFO : ip=127.0.0.1`url=/api/fzm/saveDateTest`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1522044068776ms`port=null`action=`userid=null`sid=null`
+[2018-03-26 14:02:05] INFO : ip=127.0.0.1`url=/api/fzm/saveDateTest`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1522044125560ms`port=null`action=`userid=null`sid=null`
+[2018-03-26 14:03:33] INFO : ip=127.0.0.1`url=/api/fzm/saveDateTest`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1522044213710ms`port=null`action=`userid=null`sid=null`
+[2018-03-26 14:05:16] INFO : ip=127.0.0.1`url=/api/fzm/saveDateTest`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1522044316485ms`port=null`action=`userid=null`sid=null`
+[2018-03-26 14:07:15] INFO : ip=127.0.0.1`url=/api/fzm/saveDateTest`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1522044435304ms`port=null`action=`userid=null`sid=null`
+[2018-03-26 14:08:11] INFO : Starting GwsWebApplication on wdMac.local with PID 3653 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 14:08:11] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 14:08:22] INFO : Started GwsWebApplication in 11.144 seconds (JVM running for 12.202)
+[2018-03-26 14:08:45] INFO : ip=127.0.0.1`url=/api/fzm/saveDateTest`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1522044525863ms`port=null`action=`userid=null`sid=null`
+[2018-03-26 14:09:09] INFO : ip=127.0.0.1`url=/api/fzm/saveDateTest`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1522044549208ms`port=null`action=`userid=null`sid=null`
+[2018-03-26 14:09:36] INFO : Starting GwsWebApplication on wdMac.local with PID 3669 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 14:09:36] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 14:09:49] INFO : Started GwsWebApplication in 12.802 seconds (JVM running for 13.836)
+[2018-03-26 14:09:54] INFO : ip=127.0.0.1`url=/api/fzm/saveDateTest`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1522044594678ms`port=null`action=`userid=null`sid=null`
+[2018-03-26 14:10:08] INFO : ip=127.0.0.1`url=/api/fzm/saveDateTest`action=null`ua=null`terminalType=null`terminalName=null`channelId=null`devicesId=null`accessTime=1522044608559ms`port=null`action=`userid=null`sid=null`

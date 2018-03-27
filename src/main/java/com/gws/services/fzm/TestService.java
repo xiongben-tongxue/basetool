@@ -20,4 +20,10 @@ public interface TestService {
      */
     List<DateTest> listDateTest();
 
+    /**
+     * 保存的操作
+     * @param dateTest
+     * @return
+     */
+    DateTest saveDateTest(DateTest dateTest);
 }

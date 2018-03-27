@@ -5,6 +5,7 @@ import com.gws.controllers.JsonResult;
 import com.gws.dto.OperationResult;
 import com.gws.dto.test.Year;
 import com.gws.entity.CertIdMessage;
+import com.gws.entity.DateTest;
 import com.gws.services.fzm.TestManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -33,6 +34,22 @@ public class TestController extends BaseApiController {
     public JsonResult checkYears(){
 
         OperationResult<List<Year>> result = testManageService.checkYears();
+
+        if (result.getSucc()){
+            return success(result.getEntity());
+        }
+
+        return error(result.getErrorCode());
+    }
+
+    /**
+     * 练习题
+     * @return
+     */
+    @RequestMapping("saveDateTest")
+    public JsonResult saveDateTest(DateTest dateTest){
+
+        OperationResult<Boolean> result = testManageService.saveDateTest(dateTest);
 
         if (result.getSucc()){
             return success(result.getEntity());

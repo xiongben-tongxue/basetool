@@ -33,4 +33,11 @@ public interface TestManageService {
      * @return
      */
     OperationResult<CertIdMessage> getCertMessage(Long id);
+
+    /**
+     * 保存操作
+     * @param dateTest
+     * @return
+     */
+    OperationResult<Boolean> saveDateTest(DateTest dateTest);
 }

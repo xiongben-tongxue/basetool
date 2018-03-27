@@ -1,6 +1,7 @@
 package com.gws.services.fzm.impl;
 
 import com.gws.entity.DateTest;
+import com.gws.repositories.master.test.DateTestMaster;
 import com.gws.repositories.query.test.DateTestQuery;
 import com.gws.repositories.slave.test.DateTestSlave;
 import com.gws.services.fzm.TestService;
@@ -21,6 +22,9 @@ public class TestServiceImpl implements TestService {
     @Autowired
     private DateTestSlave dateTestSlave;
 
+    @Autowired
+    private DateTestMaster dateTestMaster;
+
     @Override
     public List<DateTest> listDateTest() {
 
@@ -28,5 +32,20 @@ public class TestServiceImpl implements TestService {
         List<DateTest> dateTests = dateTestSlave.findAll(query);
 
         return CollectionUtils.isEmpty(dateTests) ? Collections.EMPTY_LIST : dateTests;
+    }
+
+    /**
+     * 保存的操作
+     *
+     * @param dateTest
+     * @return
+     */
+    @Override
+    public DateTest saveDateTest(DateTest dateTest) {
+        if (null == dateTest){
+            return null;
+        }
+
+        return dateTestMaster.saveAndFlush(dateTest);
     }
 }

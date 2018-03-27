@@ -272,3 +272,61 @@ com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'test.t_cert_id
 [2018-03-26 12:06:15] INFO : Starting GwsWebApplication on wdMac.local with PID 2507 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
 [2018-03-26 12:06:15] INFO : No active profile set, falling back to default profiles: default
 [2018-03-26 12:06:27] INFO : Started GwsWebApplication in 11.874 seconds (JVM running for 13.143)
+[2018-03-26 13:42:14] INFO : Starting GwsWebApplication on wdMac.local with PID 3246 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 13:42:14] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 13:42:47] INFO : Starting GwsWebApplication on wdMac.local with PID 3301 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 13:42:47] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 13:43:42] INFO : Starting GwsWebApplication on wdMac.local with PID 3347 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 13:43:42] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 13:43:51] INFO : Started GwsWebApplication in 9.338 seconds (JVM running for 10.57)
+[2018-03-26 13:59:56] INFO : Starting GwsWebApplication on wdMac.local with PID 3546 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 13:59:56] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 14:00:06] INFO : Started GwsWebApplication in 9.684 seconds (JVM running for 10.8)
+[2018-03-26 14:01:08] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:01:08] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:01:08] INFO : useTime=152ms,`sql= [select datetest0_.id as id1_0_0_, datetest0_.amount as amount2_0_0_, datetest0_.month as month3_0_0_, datetest0_.year as year4_0_0_ from date_test datetest0_ where datetest0_.id=?],`params=[1002]
+[2018-03-26 14:01:08] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:01:08] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:01:08] INFO : useTime=4ms,`sql= [insert into date_test (amount, month, year, id) values (?, ?, ?, ?)],`params=[6.6, 6, 1994, 1002]
+[2018-03-26 14:01:54] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:01:54] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:01:54] INFO : useTime=7ms,`sql= [select datetest0_.id as id1_0_0_, datetest0_.amount as amount2_0_0_, datetest0_.month as month3_0_0_, datetest0_.year as year4_0_0_ from date_test datetest0_ where datetest0_.id=?],`params=[1002]
+[2018-03-26 14:03:33] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:03:33] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:03:33] INFO : useTime=2ms,`sql= [select datetest0_.id as id1_0_0_, datetest0_.amount as amount2_0_0_, datetest0_.month as month3_0_0_, datetest0_.year as year4_0_0_ from date_test datetest0_ where datetest0_.id=?],`params=[1002]
+[2018-03-26 14:05:05] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:05:05] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:05:05] INFO : useTime=7ms,`sql= [select datetest0_.id as id1_0_0_, datetest0_.amount as amount2_0_0_, datetest0_.month as month3_0_0_, datetest0_.year as year4_0_0_ from date_test datetest0_ where datetest0_.id=?],`params=[1002]
+[2018-03-26 14:07:15] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:07:15] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:07:15] INFO : useTime=1ms,`sql= [select datetest0_.id as id1_0_0_, datetest0_.amount as amount2_0_0_, datetest0_.month as month3_0_0_, datetest0_.year as year4_0_0_ from date_test datetest0_ where datetest0_.id=?],`params=[1005]
+[2018-03-26 14:07:15] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:07:15] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:07:15] INFO : useTime=1ms,`sql= [insert into date_test (amount, month, year, id) values (?, ?, ?, ?)],`params=[6.6, 6, 1997, 1005]
+[2018-03-26 14:08:11] INFO : Starting GwsWebApplication on wdMac.local with PID 3653 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 14:08:11] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 14:08:22] INFO : Started GwsWebApplication in 11.144 seconds (JVM running for 12.202)
+[2018-03-26 14:08:45] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:08:45] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:08:45] INFO : useTime=142ms,`sql= [select datetest0_.id as id1_0_0_, datetest0_.amount as amount2_0_0_, datetest0_.month as month3_0_0_, datetest0_.year as year4_0_0_ from date_test datetest0_ where datetest0_.id=?],`params=[1005]
+[2018-03-26 14:09:09] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:09:09] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:09:09] INFO : useTime=2ms,`sql= [select datetest0_.id as id1_0_0_, datetest0_.amount as amount2_0_0_, datetest0_.month as month3_0_0_, datetest0_.year as year4_0_0_ from date_test datetest0_ where datetest0_.id=?],`params=[1008]
+[2018-03-26 14:09:09] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:09:09] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:09:09] INFO : useTime=3ms,`sql= [insert into date_test (amount, month, year, id) values (?, ?, ?, ?)],`params=[6.6, 6, 1997, 1008]
+[2018-03-26 14:09:36] INFO : Starting GwsWebApplication on wdMac.local with PID 3669 (/Users/wangdong/SpringSpace/emptydemo/target/classes started by wangdong in /Users/wangdong/SpringSpace/emptydemo)
+[2018-03-26 14:09:36] INFO : No active profile set, falling back to default profiles: default
+[2018-03-26 14:09:49] INFO : Started GwsWebApplication in 12.802 seconds (JVM running for 13.836)
+[2018-03-26 14:09:54] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:09:54] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:09:54] INFO : useTime=144ms,`sql= [select datetest0_.id as id1_0_0_, datetest0_.amount as amount2_0_0_, datetest0_.month as month3_0_0_, datetest0_.year as year4_0_0_ from date_test datetest0_ where datetest0_.id=?],`params=[1042]
+[2018-03-26 14:09:54] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:09:54] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:09:54] INFO : useTime=5ms,`sql= [insert into date_test (amount, month, year, id) values (?, ?, ?, ?)],`params=[6.6, 6, 1997, 1042]
+[2018-03-26 14:10:08] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:10:08] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:10:08] INFO : useTime=2ms,`sql= [select datetest0_.id as id1_0_0_, datetest0_.amount as amount2_0_0_, datetest0_.month as month3_0_0_, datetest0_.year as year4_0_0_ from date_test datetest0_ where datetest0_.id=?],`params=[1075]
+[2018-03-26 14:10:08] INFO : routes db: [ds_0] sharding columns: [] sharding values: []
+[2018-03-26 14:10:08] INFO : routes db: [DataNode(dataSourceName=ds_0, tableName=date_test)] sharding columns: [] sharding values: []
+[2018-03-26 14:10:08] INFO : useTime=1ms,`sql= [insert into date_test (amount, month, year, id) values (?, ?, ?, ?)],`params=[6.6, 6, 1997, 1075]

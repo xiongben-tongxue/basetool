@@ -101,4 +101,21 @@ public class TestManageServiceImpl implements TestManageService {
 
         return new OperationResult<>(certIdMessage);
     }
+
+    /**
+     * 保存操作
+     *
+     * @param dateTest
+     * @return
+     */
+    @Override
+    public OperationResult<Boolean> saveDateTest(DateTest dateTest) {
+
+        DateTest date = testService.saveDateTest(dateTest);
+        if (null != date){
+            return new OperationResult<>(true);
+        }
+
+        return new OperationResult<>(false);
+    }
 }
