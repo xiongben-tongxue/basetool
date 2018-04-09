@@ -26,3 +26,8 @@ hs_err_pid*
 /target
 .idea/workspace.xml
 .gitignore.swp
+.idea/misc.xml
+.idea/misc.xml
+.idea/uiDesigner.xml
+.idea/uiDesigner.xml
+emptydemo.iml

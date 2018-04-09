@@ -5,6 +5,7 @@ import com.gws.repositories.master.test.DateTestMaster;
 import com.gws.repositories.query.test.DateTestQuery;
 import com.gws.repositories.slave.test.DateTestSlave;
 import com.gws.services.fzm.TestService;
+import com.gws.utils.cache.IdGlobalGenerator;
 import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,6 +19,9 @@ import java.util.List;
  */
 @Service
 public class TestServiceImpl implements TestService {
+
+    @Autowired
+    private IdGlobalGenerator idGen;
 
     @Autowired
     private DateTestSlave dateTestSlave;
@@ -44,6 +48,10 @@ public class TestServiceImpl implements TestService {
     public DateTest saveDateTest(DateTest dateTest) {
         if (null == dateTest){
             return null;
+        }
+
+        if (null == dateTest.getId()) {
+            dateTest.setId(idGen.getSeqId(DateTest.class).intValue());
         }
 
         return dateTestMaster.saveAndFlush(dateTest);

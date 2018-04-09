@@ -1,6 +1,16 @@
 -- -------------- ---
--- 信鸽---------------
+-- test---------------
 -- -------------- ---
+CREATE TABLE `t_person` (
+  `uid` BIGINT NOT NULL COMMENT '用户id',
+  `name` VARCHAR(10) NOT NULL COMMENT '姓名',
+  `age` INTEGER (5) NOT NULL COMMENT '年龄',
+  `gender` TINYINT NOT NULL COMMENT '性别',
+  `ctime` INT NOT NULL COMMENT '创建时间',
+  `utime` INT NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`uid`),
+  KEY `idx_uid` (`uid`)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8 COMMENT = '人的实体类';
 
 
 CREATE TABLE `t_messages_record` (
