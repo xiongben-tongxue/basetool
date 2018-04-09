@@ -8,7 +8,7 @@ import com.aliyun.openservices.ons.api.PropertyKeyConst;
 import java.util.Properties;
 /**
  * @author:wangdong
- * @description:生产者
+ * @description:
  */
 
 public class ProducerTest {
