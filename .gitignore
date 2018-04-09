@@ -31,3 +31,7 @@ hs_err_pid*
 .idea/uiDesigner.xml
 .idea/uiDesigner.xml
 emptydemo.iml
+emptydemo.iml
+emptydemo.iml
+emptydemo.iml
+*.iml

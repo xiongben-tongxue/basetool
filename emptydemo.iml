@@ -202,5 +202,6 @@
     <orderEntry type="library" name="Maven: org.ocpsoft.prettytime:prettytime:3.2.7.Final" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.29" level="project" />
     <orderEntry type="library" name="Maven: com.belerweb:pinyin4j:2.5.0" level="project" />
+    <orderEntry type="library" name="Maven: com.aliyun.openservices:ons-client:1.7.0.Final" level="project" />
   </component>
 </module>
