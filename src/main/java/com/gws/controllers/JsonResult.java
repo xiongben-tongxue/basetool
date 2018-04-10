@@ -31,9 +31,10 @@ public class JsonResult {
         this.data = data;
     }
 
-    public JsonResult(String code, String message) {
+    public JsonResult(String code, String message,Object data) {
         this.code = code;
         this.message = message;
+        this.data = data;
     }
 
     public String getCode() {

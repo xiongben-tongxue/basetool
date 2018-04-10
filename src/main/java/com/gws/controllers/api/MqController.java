@@ -1,6 +1,10 @@
 package com.gws.controllers.api;
 
 import com.gws.controllers.BaseApiController;
+import com.gws.controllers.JsonResult;
+import com.gws.dto.OperationResult;
+import com.gws.services.mq.MqManageService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,6 +13,20 @@ import org.springframework.web.bind.annotation.RestController;
  * @description:集成RecketMq的接口
  */
 @RestController
-@RequestMapping("/api/fzm/")
+@RequestMapping("/api/mq/")
 public class MqController extends BaseApiController {
+
+    @Autowired
+    private MqManageService mqManageService;
+
+    @RequestMapping("mqProducer")
+    public JsonResult mqProducer(String topic, String tags, String key, String body){
+
+        OperationResult<String> result = mqManageService.mqProducer(topic,tags,key,body);
+
+        if (result.getSucc()){
+            return success(result.getEntity());
+        }
+        return error(result.getErrorCode().getCode(),result.getErrorCode().getMessage());
+    }
 }
