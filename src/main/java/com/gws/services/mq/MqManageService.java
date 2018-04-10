@@ -17,4 +17,12 @@ public interface MqManageService{
      * @return
      */
     OperationResult<String> mqProducer(String topic, String tags, String key, String body);
+
+    /**
+     * 订阅消息
+     * @param topic
+     * @return
+     */
+    OperationResult<Boolean> mqConsumer(String topic);
+
 }

@@ -19,6 +19,14 @@ public class MqController extends BaseApiController {
     @Autowired
     private MqManageService mqManageService;
 
+    /**
+     * 消息发布者
+     * @param topic
+     * @param tags
+     * @param key
+     * @param body
+     * @return
+     */
     @RequestMapping("mqProducer")
     public JsonResult mqProducer(String topic, String tags, String key, String body){
 
@@ -29,4 +37,16 @@ public class MqController extends BaseApiController {
         }
         return error(result.getErrorCode().getCode(),result.getErrorCode().getMessage());
     }
+
+    @RequestMapping("mqConsumer")
+    public JsonResult mqConsumer(String topic){
+
+        OperationResult<Boolean> result = mqManageService.mqConsumer(topic);
+
+        if (result.getSucc()){
+            return success(result.getEntity());
+        }
+        return error(result.getErrorCode().getCode(),result.getErrorCode().getMessage());
+    }
+
 }

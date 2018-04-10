@@ -41,4 +41,26 @@ public class MqManageServiceImpl implements MqManageService {
         return new OperationResult<>(BizErrorCode.SEND_FAIL);
 
     }
+
+    /**
+     * 订阅消息
+     *
+     * @param topic
+     * @return
+     */
+    @Override
+    public OperationResult<Boolean> mqConsumer(String topic) {
+        if (StringUtils.isEmpty(topic)){
+            return new OperationResult<>(BizErrorCode.PARM_ERROR);
+        }
+
+        Boolean result = mqService.mqConsumer(topic);
+        if (result){
+            return new OperationResult<>(true);
+        }
+
+        return new OperationResult<>(false);
+    }
+
+
 }

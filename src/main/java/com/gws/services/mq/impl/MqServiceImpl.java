@@ -25,6 +25,9 @@ public class MqServiceImpl implements MqService {
     @Value("${mq.producerId}")
     private String mqProducerId;
 
+    @Value("${mq.consumerId}")
+    private String mqConsumerId;
+
     @Value("${mq.accessKey}")
     private String mqAccessKey;
 
@@ -40,7 +43,6 @@ public class MqServiceImpl implements MqService {
     public void init() {
         logger.info("mqInit Started");
         //初始化参数
-        properties.put(PropertyKeyConst.ProducerId, mqProducerId);
         properties.put(PropertyKeyConst.AccessKey,mqAccessKey);
         properties.put(PropertyKeyConst.SecretKey, mqSsecretKey);
         properties.put(PropertyKeyConst.ONSAddr,
@@ -62,18 +64,56 @@ public class MqServiceImpl implements MqService {
         if (StringUtils.isEmpty(topic) || StringUtils.isEmpty(tags) || StringUtils.isEmpty(body)){
             return null;
         }
-
+        properties.put(PropertyKeyConst.ProducerId, mqProducerId);
         Producer producer = ONSFactory.createProducer(properties);
         producer.start();
         Message msg = new Message(topic,tags,body.getBytes());
         msg.setKey(key);
         // 发送消息，只要不抛异常就是成功
         // 打印 Message ID，以便用于消息发送状态查询
-        SendResult sendResult = producer.send(msg);
+        SendResult sendResult = new SendResult();
+        try {
+            sendResult = producer.send(msg);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
         if (StringUtils.isNotEmpty(sendResult.getMessageId())){
             System.out.println("Send Message success. Message ID is: " + sendResult.getMessageId());
             return sendResult.getMessageId();
         }
         return null;
     }
+
+    /**
+     * Mq订阅者接口
+     *
+     * @param topic
+     * @return
+     */
+    @Override
+    public Boolean mqConsumer(String topic) {
+        if (StringUtils.isEmpty(topic)){
+            return false;
+        }
+        properties.put(PropertyKeyConst.ConsumerId, mqConsumerId);
+        Consumer consumer = ONSFactory.createConsumer(properties);
+        consumer.subscribe(topic, "*", new MessageListener() {
+            @Override
+            public Action consume(Message message, ConsumeContext context) {
+                System.out.println("Receive: " + message);
+                return Action.CommitMessage;
+            }
+        });
+
+        try {
+            consumer.start();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        System.out.println("Consumer" + topic + "Started");
+        return true;
+    }
+
+
 }
