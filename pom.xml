@@ -252,7 +252,7 @@
 
 
 	<build>
-		<finalName>empty</finalName>
+		<finalName>usdgservice</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
