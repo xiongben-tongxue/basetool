@@ -38,6 +38,11 @@ public class MqController extends BaseApiController {
         return error(result.getErrorCode().getCode(),result.getErrorCode().getMessage());
     }
 
+    /**
+     * 消息消费者
+     * @param topic
+     * @return
+     */
     @RequestMapping("mqConsumer")
     public JsonResult mqConsumer(String topic){
 
