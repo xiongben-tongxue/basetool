@@ -20,6 +20,20 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>sonatype-nexus-staging</id>
+			<name>Sonatype Nexus Staging</name>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -160,7 +174,7 @@
 		<dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-core</artifactId>
-			<version>2.4.3</version>
+			<version>3.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.aliyun</groupId>
@@ -171,6 +185,12 @@
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-jaq</artifactId>
 			<version>2.0.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-dm</artifactId>
+			<version>3.1.0</version>
 		</dependency>
 
 		<dependency>
@@ -229,12 +249,6 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>1.2.29</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.aliyun</groupId>
-			<artifactId>aliyun-java-sdk-jaq</artifactId>
-			<version>2.0.5</version>
 		</dependency>
 
 		<dependency>
