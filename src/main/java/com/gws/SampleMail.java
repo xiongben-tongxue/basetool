@@ -6,7 +6,7 @@ import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 public class SampleMail {
     private static final String ALIDM_SMTP_HOST = "smtpdm.aliyun.com";
-    private static final int ALIDM_SMTP_PORT = 25;//或80
+    private static final int ALIDM_SMTP_PORT = 80;//或80
     public static void main(String[] args) {
         // 配置发送邮件的环境属性
         final Properties props = new Properties();
@@ -19,7 +19,7 @@ public class SampleMail {
         // props.put("mail.smtp.socketFactory.port", "465");
         // props.put("mail.smtp.port", "465");
         // 发件人的账号
-        props.put("mail.user", "usdg");
+        props.put("mail.user", "usdg@mail.timesea.cn");
         // 访问SMTP服务时需要提供的密码
         props.put("mail.password", "HEllo123456");
         // 构建授权信息，用于进行SMTP进行身份验证
