@@ -66,71 +66,38 @@ CREATE TABLE `usdg_user_account` (
 
 -- ----------------------------
 -- Table structure for bty_trade_marketprice
--- 比特元的市价交易表
+-- 比特元的交易表
 -- ----------------------------
-CREATE TABLE `bty_trade_marketprice` (
+CREATE TABLE `bty_trade_order` (
   `id` bigint NOT NULL COMMENT '流水编号',
   `uid` bigint NOT NULL COMMENT '主键uid',
   `send_address` varchar(50) NOT NULL COMMENT '打币的地址',
   `receive_address` varchar(50) NOT NULL COMMENT '打币的地址',
   `amount` decimal(10,8) NOT NULL COMMENT '币的交易数量',
   `rate` decimal(10,8) NOT NULL COMMENT '兑换比率，1bty对多少外币',
-  `type` tinyint(1) NOT NULL COMMENT '兑换其他币的类型：1、usdg',
-  `status` tinyint(1) NOT NULL COMMENT '交易的状态：1、确认中，2、已完成',
+  `coin_type` tinyint(1) NOT NULL COMMENT '兑换其他币的类型：1、usdg',
+  `trade_type` tinyint(1) NOT NULL COMMENT '区分市价和限价：1、市价交易，2、限价交易',
+  `order_status` tinyint(1) NOT NULL COMMENT '交易的状态：1、确认中，2、已完成',
   `ctime` int NOT NULL COMMENT '创建时间',
   `utime` int NOT NULL COMMENT '更新时间',
-  PRIMARY KEY (`uid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='比特元的市价交易表';
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='比特元交易表';
 
 -- ----------------------------
--- Table structure for usdg_trade_marketprice
--- usdg的市价交易表
+-- Table structure for usdg_trade_order
+-- usdg的交易表
 -- ----------------------------
-CREATE TABLE `usdg_trade_marketprice` (
+CREATE TABLE `usdg_trade_order` (
   `id` bigint NOT NULL COMMENT '流水编号',
   `uid` bigint NOT NULL COMMENT '主键uid',
   `send_address` varchar(50) NOT NULL COMMENT '打币的地址',
   `receive_address` varchar(50) NOT NULL COMMENT '打币的地址',
   `amount` decimal(10,8) NOT NULL COMMENT '币的交易数量',
   `rate` decimal(10,8) NOT NULL COMMENT '兑换比率，1usdg对多少外币',
-  `type` tinyint(1) NOT NULL COMMENT '兑换其他币的类型：1、bty',
-  `status` tinyint(1) NOT NULL COMMENT '交易的状态：1、确认中，2、已完成',
+  `coin_type` tinyint(1) NOT NULL COMMENT '兑换其他币的类型：1、bty',
+  `trade_type` tinyint(1) NOT NULL COMMENT '区分市价和限价：1、市价交易，2、限价交易',
+  `order_status` tinyint(1) NOT NULL COMMENT '交易的状态：1、确认中，2、已完成',
   `ctime` int NOT NULL COMMENT '创建时间',
   `utime` int NOT NULL COMMENT '更新时间',
-  PRIMARY KEY (`uid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='usdg的市价交易表';
--- ----------------------------
--- Table structure for bty_trade_customprice
--- 比特元的限价交易表(用户自定义的价格)
--- ----------------------------
-CREATE TABLE `bty_trade_customprice` (
-  `id` bigint NOT NULL COMMENT '流水编号',
-  `uid` bigint NOT NULL COMMENT '主键uid',
-  `send_address` varchar(50) NOT NULL COMMENT '打币的地址',
-  `receive_address` varchar(50) NOT NULL COMMENT '打币的地址',
-  `amount` decimal(10,8) NOT NULL COMMENT '币的交易数量',
-  `rate` decimal(10,8) NOT NULL COMMENT '兑换比率，1bty对多少外币',
-  `type` tinyint(1) NOT NULL COMMENT '兑换其他币的类型：1、usdg',
-  `status` tinyint(1) NOT NULL COMMENT '交易的状态：1、确认中，2、已完成',
-  `ctime` int NOT NULL COMMENT '创建时间',
-  `utime` int NOT NULL COMMENT '更新时间',
-  PRIMARY KEY (`uid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='比特元的限价交易表';
-
--- ----------------------------
--- Table structure for usdg_trade_customprice
--- usdg的限价交易表(用户自定义的价格)
--- ----------------------------
-CREATE TABLE `usdg_trade_customprice` (
-  `id` bigint NOT NULL COMMENT '流水编号',
-  `uid` bigint NOT NULL COMMENT '主键uid',
-  `send_address` varchar(50) NOT NULL COMMENT '打币的地址',
-  `receive_address` varchar(50) NOT NULL COMMENT '打币的地址',
-  `amount` decimal(10,8) NOT NULL COMMENT '币的交易数量',
-  `rate` decimal(10,8) NOT NULL COMMENT '兑换比率，1usdg对多少外币',
-  `type` tinyint(1) NOT NULL COMMENT '兑换其他币的类型：1、bty',
-  `status` tinyint(1) NOT NULL COMMENT '交易的状态：1、确认中，2、已完成',
-  `ctime` int NOT NULL COMMENT '创建时间',
-  `utime` int NOT NULL COMMENT '更新时间',
-  PRIMARY KEY (`uid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='usdg的限价交易表';
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='usdg的交易表';
