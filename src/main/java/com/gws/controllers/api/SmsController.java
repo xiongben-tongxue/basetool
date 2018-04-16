@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/sms/")
-public class SmsApiController extends BaseApiController {
+public class SmsController extends BaseApiController {
 
     @Autowired
     private SmsService smsService;

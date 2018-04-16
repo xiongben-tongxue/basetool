@@ -16,7 +16,7 @@ import lombok.Data;
 @Data
 public class MessagesRecordQuery extends BaseQuery {
 
-    @QBindAttrField(fieldName = "uid", where = Where.equal)
+    @QBindAttrField(fieldName = "uid", where = Where.in)
     private Long uid;
 
     @QBindAttrField(fieldName = "isDelete", where = Where.equal)

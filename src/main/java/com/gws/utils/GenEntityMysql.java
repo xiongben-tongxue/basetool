@@ -64,7 +64,7 @@ public class GenEntityMysql {
     //数据库连接
 	private static final String URL ="jdbc:mysql://rm-m5ex3uv3mr4d5808nqo.mysql.rds.aliyuncs.com:3306/testspring";
 	private static final String NAME = "root";
-	private static final String PASS = "123456";
+	private static final String PASS = "Usdg123456";
 	private static final String DRIVER ="com.mysql.jdbc.Driver";
 
 	/*
