@@ -28,11 +28,11 @@ public class MqServiceImpl implements MqService {
     @Value("${mq.consumerId}")
     private String mqConsumerId;
 
-    @Value("${mq.accessKey}")
-    private String mqAccessKey;
+    @Value("${ali.accessKey}")
+    private String aliAccessKey;
 
-    @Value("${mq.secretKey}")
-    private String mqSsecretKey;
+    @Value("${ali.secretKey}")
+    private String aliSecretKey;
 
     @Value("${mq.tcpHost}")
     private String mqTcpHost;
@@ -43,8 +43,8 @@ public class MqServiceImpl implements MqService {
     public void init() {
         logger.info("mqInit Started");
         //初始化参数
-        properties.put(PropertyKeyConst.AccessKey,mqAccessKey);
-        properties.put(PropertyKeyConst.SecretKey, mqSsecretKey);
+        properties.put(PropertyKeyConst.AccessKey, aliAccessKey);
+        properties.put(PropertyKeyConst.SecretKey, aliSecretKey);
         properties.put(PropertyKeyConst.ONSAddr,
                 mqTcpHost);
     }
