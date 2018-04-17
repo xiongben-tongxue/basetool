@@ -9,12 +9,20 @@ import com.gws.dto.sms.SmsNotice;
 public interface MailService {
 
     /**
-     * 发送邮件
+     * 发送邮件，采用API的方式发送邮件
      * @param toAddress
      * @param subject
      * @param htmlBody
      * @return
      */
-    Boolean sendAliMail(String toAddress, String subject, String htmlBody);
+    Boolean sendAliMailByApi(String toAddress, String subject, String htmlBody);
 
+    /**
+     * 发送邮件，采用Smtp的方式发送邮件
+     * @param toAddress
+     * @param subject
+     * @param htmlBody
+     * @return
+     */
+    Boolean sendAliMailBySmtp(String toAddress, String subject, String htmlBody);
 }
