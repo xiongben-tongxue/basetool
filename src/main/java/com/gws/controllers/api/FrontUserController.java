@@ -2,13 +2,14 @@ package com.gws.controllers.api;
 
 import com.gws.controllers.BaseApiController;
 import com.gws.controllers.JsonResult;
-import com.gws.dto.OperationResult;
-import com.gws.entity.user.UserBaseInfo;
+import com.gws.entity.frontuser.UserBaseInfo;
 import com.gws.services.frontuser.FrontUserService;
 import com.gws.services.mq.MqManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 /**
  * @author:wangdong
@@ -24,12 +25,46 @@ public class FrontUserController extends BaseApiController {
     @Autowired
     private FrontUserService frontUserService;
 
+    /**
+     * 新增demo
+     * @param userBaseInfo
+     * @return
+     */
+    @RequestMapping("saveUserBaseInfo")
+    public JsonResult saveUserBaseInfo(UserBaseInfo userBaseInfo){
+
+        UserBaseInfo result = frontUserService.saveUserBaseInfo(userBaseInfo);
+
+        return success(result);
+    }
+
+    /**
+     * 修改demo
+     * @param userBaseInfo
+     * @return
+     */
     @RequestMapping("updateUserBaseInfo")
     public JsonResult updateUserBaseInfo(UserBaseInfo userBaseInfo){
 
         UserBaseInfo result = frontUserService.updateUserBaseInfo(userBaseInfo);
 
         return success(result);
+    }
+
+    /**
+     * 分页查询
+     * @param uid 用户的uid
+     * @param userName 用户的昵称
+     * @param currentPage 当前页
+     * @param pageSize 每页的条数
+     * @return
+     */
+    @RequestMapping("listUserBaseInfo")
+    public JsonResult listUserBaseInfo(Long uid,String userName,Integer currentPage,Integer pageSize){
+
+        List<UserBaseInfo> listUserBaseInfo = frontUserService.listUserBaseInfo(uid,userName,currentPage,pageSize);
+
+        return success(listUserBaseInfo);
     }
 
     /**
@@ -141,16 +176,34 @@ public class FrontUserController extends BaseApiController {
     }
 
     /**
-     * 注册
+     * 获取手机验证码
+     * 目前采用的是快捷注册登陆
+     * 无论是登陆还是注册，相应的验证码正确即可
      * @param mobile
      * @return
      */
-    @RequestMapping("login")
-    public JsonResult login(String mobile){
+    @RequestMapping("getMcodeRegisterOrLogin")
+    public JsonResult getMcodeRegisterOrLogin(String mobile){
+        //1.根据产品原型的要求，注册登陆采用的是快捷方式
+        //2.用户输入一个手机号
+        //3.手机号没注册，发送注册的验证码，存到redis
+        //4.手机号已经注册，发送登陆的验证码，存到redis
+        return null;
+    }
+
+    /**
+     * 手机注册或登陆
+     * @param mobile
+     * @return
+     */
+    @RequestMapping("registerOrLogin")
+    public JsonResult register(String mobile,String mcode){
         //1.判断手机号是否已经注册
-        //2.查数据库是否有这个手机号
-        //3.有的话，就提示已经注册请登陆
-        //4.没有的话，就
+        //2.查数据库user_base_info是否有这个手机号
+        //3.没有的话，从redis取出验证码，校验这个手机号的注册验证码是否正确
+        //4.直接注册，并登陆，生产token插入user_token，给前端返回uid和token
+        //5.有的话，从redis取出验证码，校验这个手机号的登陆验证码是否正确
+        //6.直接登陆，给前端返回uid和token
         return null;
     }
 

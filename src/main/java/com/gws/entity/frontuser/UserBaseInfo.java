@@ -1,12 +1,9 @@
-package com.gws.entity.user;
+package com.gws.entity.frontuser;
 
 import lombok.Data;
 
-import java.math.BigDecimal;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 

@@ -18,4 +18,7 @@ public class CachePrefix {
     public static final String SAVE_APP_TOKEN = "save_appToken_";
 
     public static final String SAVE_SDK_TOKEN = "save_sdkToken_";
+
+    /**frontuser模块**/
+    public static final String FRONTUSER = "frontuser_";
 }

@@ -1,7 +1,8 @@
 package com.gws.services.frontuser;
 
-import com.gws.dto.sms.SmsNotice;
-import com.gws.entity.user.UserBaseInfo;
+import com.gws.entity.frontuser.UserBaseInfo;
+
+import java.util.List;
 
 /**
  * 前台用户的原子接口
@@ -17,4 +18,20 @@ public interface FrontUserService {
      */
     UserBaseInfo updateUserBaseInfo(UserBaseInfo userBaseInfo);
 
+    /**
+     * 新增用户的基本信息
+     * @param userBaseInfo
+     * @return
+     */
+    UserBaseInfo saveUserBaseInfo(UserBaseInfo userBaseInfo);
+
+    /**
+     * 获取用户信息，分页查询
+     * @param uid
+     * @param userName
+     * @param currentPage
+     * @param pageSize
+     * @return
+     */
+    List<UserBaseInfo> listUserBaseInfo(Long uid, String userName, Integer currentPage, Integer pageSize);
 }

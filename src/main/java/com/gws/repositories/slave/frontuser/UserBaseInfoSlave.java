@@ -1,4 +1,4 @@
-package com.gws.repositories.master.frontuser;
+package com.gws.repositories.slave.frontuser;
 
 import com.gws.entity.frontuser.UserBaseInfo;
 import com.gws.utils.query.core.GwsBaseRepository;
@@ -7,5 +7,5 @@ import com.gws.utils.query.core.GwsBaseRepository;
  * UserBaseInfo
  * Created by wangdong
  */
-public interface UserBaseInfoMaster extends GwsBaseRepository<UserBaseInfo,Long> {
+public interface UserBaseInfoSlave extends GwsBaseRepository<UserBaseInfo,Long> {
 }
