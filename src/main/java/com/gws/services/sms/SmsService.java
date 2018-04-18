@@ -5,7 +5,7 @@ import com.gws.dto.sms.SmsNotice;
 /**
  * 【短信服务类】
  *
- * @author yangjh  06/05/2017.
+ * @author
  */
 public interface SmsService {
 

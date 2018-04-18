@@ -3,6 +3,8 @@ package com.gws.controllers.api;
 import com.gws.controllers.BaseApiController;
 import com.gws.controllers.JsonResult;
 import com.gws.dto.OperationResult;
+import com.gws.entity.user.UserBaseInfo;
+import com.gws.services.frontuser.FrontUserService;
 import com.gws.services.mq.MqManageService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,10 +16,21 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/front/user/")
-public class UserController extends BaseApiController {
+public class FrontUserController extends BaseApiController {
 
     @Autowired
     private MqManageService mqManageService;
+
+    @Autowired
+    private FrontUserService frontUserService;
+
+    @RequestMapping("updateUserBaseInfo")
+    public JsonResult updateUserBaseInfo(UserBaseInfo userBaseInfo){
+
+        UserBaseInfo result = frontUserService.updateUserBaseInfo(userBaseInfo);
+
+        return success(result);
+    }
 
     /**
      * 根据Uid获取个人信息
