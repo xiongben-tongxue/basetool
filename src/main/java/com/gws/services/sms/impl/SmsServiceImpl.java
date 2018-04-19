@@ -122,16 +122,19 @@ public class SmsServiceImpl implements SmsService {
         Map<String, String> params = new HashMap<>();
         params.put("code", code);
 
-        sendSms(mobile, templateCode, params);
-
-        return true;
+        Boolean result = sendSms(mobile, templateCode, params);
+        if (result) {
+            return true;
+        }else {
+            return false;
+        }
     }
 
 
-    private void sendSms(String mobile, String templateCode, Map<String, String> params) {
+    private Boolean sendSms(String mobile, String templateCode, Map<String, String> params) {
 
         if (StringUtils.isEmpty(mobile) || StringUtils.isEmpty(templateCode)) {
-            return;
+            return false;
         }
 
         SendSmsRequest request = new SendSmsRequest();
@@ -153,13 +156,17 @@ public class SmsServiceImpl implements SmsService {
                 GwsLogger.info("阿里云短信服务返回报文内容是:" + JSON.toJSONString(sendSmsResponse));
                 if ("OK".equalsIgnoreCase(sendSmsResponse.getCode())) {
                     GwsLogger.info("给" + mobile + "发送短信成功");
+                    return true;
                 } else {
                     GwsLogger.error("给" + mobile + "发送短信失败！错误码是：" +
                             sendSmsResponse.getCode() + ",错误提示信息是：" + sendSmsResponse.getMessage());
+                    return false;
                 }
             }
+            return true;
         } catch (Exception e) {
             GwsLogger.error("给手机{}发送短信失败,原因={}", mobile, e.getMessage());
+            return false;
         }
     }
 }

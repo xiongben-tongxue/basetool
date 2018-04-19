@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.gws</groupId>
-	<artifactId>usdgservice</artifactId>
+	<artifactId>basetool</artifactId>
 
 	<name>Web Application</name>
 
@@ -272,7 +272,7 @@
 
 
 	<build>
-		<finalName>usdgservice</finalName>
+		<finalName>basetool</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

@@ -35,3 +35,7 @@ emptydemo.iml
 emptydemo.iml
 emptydemo.iml
 *.iml
+.idea/.name
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml

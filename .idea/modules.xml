@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/emptydemo.iml" filepath="$PROJECT_DIR$/emptydemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usdgservice.iml" filepath="$PROJECT_DIR$/usdgservice.iml" />
     </modules>
   </component>
 </project>
