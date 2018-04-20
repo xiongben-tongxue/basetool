@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/usdgservice.iml" filepath="$PROJECT_DIR$/usdgservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basetool.iml" filepath="$PROJECT_DIR$/basetool.iml" />
     </modules>
   </component>
 </project>

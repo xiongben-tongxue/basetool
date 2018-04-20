@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="usdgservice" />
+        <module name="basetool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="usdgservice" target="1.8" />
+      <module name="basetool" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
