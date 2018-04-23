@@ -1,11 +1,8 @@
 package com.gws.controllers.api;
 
-import com.gws.controllers.BaseApiController;
+import com.gws.controllers.BaseController;
 import com.gws.controllers.JsonResult;
-import com.gws.dto.sms.SmsNotice;
 import com.gws.services.mail.MailService;
-import com.gws.services.sms.SmsService;
-import com.gws.utils.json.JsonParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/mail/")
-public class MailController extends BaseApiController {
+public class MailController extends BaseController {
 
     @Autowired
     private MailService mailService;

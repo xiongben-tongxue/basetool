@@ -1,14 +1,12 @@
 package com.gws.controllers.api;
 
-import com.gws.base.annotation.Anonymous;
-import com.gws.controllers.BaseApiController;
+import com.gws.controllers.BaseController;
 import com.gws.controllers.JsonResult;
 import com.gws.dto.sms.SmsNotice;
 import com.gws.services.sms.SmsService;
 import com.gws.utils.json.JsonParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -19,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/sms/")
-public class SmsController extends BaseApiController {
+public class SmsController extends BaseController {
 
     @Autowired
     private SmsService smsService;

@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 
 @ResponseBody
-public class BaseApiController {
+public class BaseController {
 
     @ExceptionHandler(Exception.class)
     public JsonResult handleException(HttpServletRequest request, HttpServletResponse response, Exception ex) {

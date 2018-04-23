@@ -3,7 +3,8 @@ package com.gws.dto.sms;
 import lombok.Data;
 
 /**
- * @author 熊本同学
+ * @author:wangdong
+ * @description:
  */
 @Data
 public class SmsNotice {

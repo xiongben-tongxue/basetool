@@ -1,6 +1,6 @@
 package com.gws.controllers.api;
 
-import com.gws.controllers.BaseApiController;
+import com.gws.controllers.BaseController;
 import com.gws.controllers.JsonResult;
 import com.gws.dto.OperationResult;
 import com.gws.services.mq.MqManageService;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/api/mq/")
-public class MqController extends BaseApiController {
+public class MqController extends BaseController {
 
     @Autowired
     private MqManageService mqManageService;
