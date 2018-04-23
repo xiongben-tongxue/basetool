@@ -1,12 +1,15 @@
 package com.gws.services.frontuser.impl;
 
 import com.google.common.collect.Lists;
+import com.gws.dto.OperationResult;
 import com.gws.entity.frontuser.UserBaseInfo;
+import com.gws.enums.BizErrorCode;
 import com.gws.repositories.master.frontuser.UserBaseInfoMaster;
 import com.gws.repositories.query.frontuser.UserBaseInfoQuery;
 import com.gws.repositories.slave.frontuser.UserBaseInfoSlave;
 import com.gws.services.frontuser.FrontUserService;
 import com.gws.utils.cache.IdGlobalGenerator;
+import org.apache.commons.collections.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -112,5 +115,27 @@ public class FrontUserServiceImpl implements FrontUserService {
         Page<UserBaseInfo> userBaseInfos = userBaseInfoSlave.findAll(query,pageable);
 
         return (null != userBaseInfos) ? userBaseInfos.getContent() : Collections.EMPTY_LIST;
+    }
+
+    /**
+     * 根据条件执行删除的操作
+     *
+     * @param userStatus
+     * @return
+     */
+    @Override
+    public OperationResult<Boolean> deletedUserBaseInfo(Integer userStatus) {
+        if (null == userStatus){
+            return new OperationResult<>(BizErrorCode.PARM_ERROR);
+        }
+        UserBaseInfoQuery userBaseInfo = new UserBaseInfoQuery();
+
+        userBaseInfo.setUserStatus(userStatus);
+        List<UserBaseInfo> userBaseInfos = userBaseInfoSlave.findAll(userBaseInfo);
+        if (CollectionUtils.isNotEmpty(userBaseInfos)){
+            userBaseInfoMaster.delete(userBaseInfos);
+        }
+
+        return new OperationResult<>(true);
     }
 }

@@ -22,6 +22,7 @@ public class UserBaseInfoQuery extends BaseQuery {
     @QBindAttrField(fieldName = "userName", where = Where.equal)
     private String userName;
 
-
+    @QBindAttrField(fieldName = "userStatus", where = Where.equal)
+    private Integer userStatus;
 
 }

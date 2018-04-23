@@ -1,5 +1,6 @@
 package com.gws.services.frontuser;
 
+import com.gws.dto.OperationResult;
 import com.gws.entity.frontuser.UserBaseInfo;
 
 import java.util.List;
@@ -34,4 +35,11 @@ public interface FrontUserService {
      * @return
      */
     List<UserBaseInfo> listUserBaseInfo(Long uid, String userName, Integer currentPage, Integer pageSize);
+
+    /**
+     * 根据条件执行删除的操作
+     * @param userStatus
+     * @return
+     */
+    OperationResult<Boolean> deletedUserBaseInfo(Integer userStatus);
 }

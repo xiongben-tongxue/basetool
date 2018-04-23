@@ -2,6 +2,7 @@ package com.gws.controllers.api;
 
 import com.gws.controllers.BaseApiController;
 import com.gws.controllers.JsonResult;
+import com.gws.dto.OperationResult;
 import com.gws.entity.frontuser.UserBaseInfo;
 import com.gws.services.frontuser.FrontUserService;
 import com.gws.services.mq.MqManageService;
@@ -34,6 +35,19 @@ public class FrontUserController extends BaseApiController {
     public JsonResult saveUserBaseInfo(UserBaseInfo userBaseInfo){
 
         UserBaseInfo result = frontUserService.saveUserBaseInfo(userBaseInfo);
+
+        return success(result);
+    }
+
+    /**
+     * 根据条件执行删除的操作
+     * @param userStatus
+     * @return
+     */
+    @RequestMapping("deletedUserBaseInfo")
+    public JsonResult deletedUserBaseInfo(Integer userStatus){
+
+        OperationResult<Boolean> result = frontUserService.deletedUserBaseInfo(userStatus);
 
         return success(result);
     }
