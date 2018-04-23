@@ -39,3 +39,8 @@ emptydemo.iml
 .idea/compiler.xml
 .idea/misc.xml
 .idea/modules.xml
+.idea/libraries/Maven__antlr_antlr_2_7_7.xml
+.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_2_8_2.xml
+.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml
+*.xml
+*.xml
