@@ -20,7 +20,7 @@ import java.util.Map;
  * ucloud的处理文件的接口
  */
 @RestController
-@RequestMapping("/api/file")
+@RequestMapping("/api/file/")
 public class OssController extends BaseController {
 
     @Autowired
@@ -36,10 +36,7 @@ public class OssController extends BaseController {
     public JsonResult uploadFile(@RequestPart("file") MultipartFile file, @RequestParam String bucket){
 
         String fileUrl = aliossService.uploadFile(file, bucket);
-        Map<String,String> result = new HashMap<>();
-        result.put("fileUrl",fileUrl);
-
-        return success(result);
+        return success(fileUrl);
     }
 
     /**

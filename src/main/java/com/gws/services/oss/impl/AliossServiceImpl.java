@@ -31,11 +31,11 @@ public class AliossServiceImpl implements AliossService{
     @Value("${ali.oss.endpoint}")
     private String aliOssEndpoint;
 
-    @Value("${oss.accessKeyId}")
-    private String ossAccessKeyId;
+    @Value("${ali.accessKey}")
+    private String aliAccessKey;
 
-    @Value("${oss.accessKeySecret}")
-    private String ossAccessKeySecret;
+    @Value("${ali.secretKey}")
+    private String aliSecretKey;
 
     @Value("${ali.oss.cdnHttpsHost}")
     private String cdnHttpsHost;
@@ -75,7 +75,7 @@ public class AliossServiceImpl implements AliossService{
         }
         String fixKey = String.valueOf(key);
         // 创建OSSClient实例
-        OSSClient ossClient = new OSSClient(aliOssEndpoint, ossAccessKeyId, ossAccessKeySecret);
+        OSSClient ossClient = new OSSClient(aliOssEndpoint, aliAccessKey, aliSecretKey);
 
         try {
             ossClient.putObject(bucket, fixKey, file.getInputStream());
@@ -118,7 +118,7 @@ public class AliossServiceImpl implements AliossService{
         }
         String fixKey = String.valueOf(key);
         // 创建OSSClient实例
-        OSSClient ossClient = new OSSClient(aliOssEndpoint, ossAccessKeyId, ossAccessKeySecret);
+        OSSClient ossClient = new OSSClient(aliOssEndpoint, aliAccessKey, aliSecretKey);
 
         ossClient.putObject(bucket, fixKey, new ByteArrayInputStream(file.getBytes()));
         // 关闭client
@@ -139,7 +139,7 @@ public class AliossServiceImpl implements AliossService{
     @Override
     public InputStream downByStream(String bucket,String key) throws IOException {
         // 创建OSSClient实例
-        OSSClient ossClient = new OSSClient(aliOssEndpoint, ossAccessKeyId, ossAccessKeySecret);
+        OSSClient ossClient = new OSSClient(aliOssEndpoint, aliAccessKey, aliSecretKey);
         OSSObject ossObject = ossClient.getObject(bucket, key);
 
         // 读Object内容
