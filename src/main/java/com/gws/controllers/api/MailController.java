@@ -3,8 +3,10 @@ package com.gws.controllers.api;
 import com.gws.controllers.BaseController;
 import com.gws.controllers.JsonResult;
 import com.gws.services.mail.MailService;
+import com.gws.utils.json.JsonParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
