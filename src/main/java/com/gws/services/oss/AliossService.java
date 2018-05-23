@@ -1,7 +1,9 @@
 package com.gws.services.oss;
 
+import com.gws.dto.OperationResult;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
@@ -44,5 +46,13 @@ public interface AliossService {
      */
     List<String> uploadFiles(MultipartFile[] files, String bucket);
 
+    /**
+     * 文件六传输
+     * @param inputStream
+     * @param fileName
+     * @return
+     */
+    OperationResult<Boolean> uploadFileToBasetool(InputStream inputStream, String fileName) throws FileNotFoundException;
 
+    boolean download(String fileUrl, String saveAsPath);
 }

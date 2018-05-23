@@ -2,14 +2,16 @@ package com.gws.controllers.api;
 
 import com.gws.controllers.BaseController;
 import com.gws.controllers.JsonResult;
+import com.gws.dto.OperationResult;
 import com.gws.services.oss.AliossService;
-import com.gws.utils.json.JsonParam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
@@ -86,5 +88,15 @@ public class OssController extends BaseController {
         return success(result);
     }
 
+    @RequestMapping("uploadFileToBasetool")
+    public JsonResult uploadFileToBasetool(InputStream inputStream,String fileName) throws FileNotFoundException {
+        OperationResult<Boolean> result= aliossService.uploadFileToBasetool(inputStream, fileName);
+        return success(result.getEntity());
+    }
 
+    @RequestMapping("downloadFile")
+    public JsonResult downloadFile(String fileUrl, String saveAsPath){
+        boolean result = aliossService.download(fileUrl,saveAsPath);
+        return success(result);
+    }
 }

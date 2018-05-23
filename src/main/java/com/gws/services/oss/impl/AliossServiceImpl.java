@@ -3,7 +3,10 @@ package com.gws.services.oss.impl;
 import com.aliyun.oss.OSSClient;
 import com.aliyun.oss.model.OSSObject;
 import com.gws.GwsWebApplication;
+import com.gws.dto.OperationResult;
+import com.gws.enums.BizErrorCode;
 import com.gws.services.oss.AliossService;
+import com.gws.utils.GwsLogger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
@@ -13,6 +16,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.PostConstruct;
 import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -41,6 +46,9 @@ public class AliossServiceImpl implements AliossService{
     private String cdnHttpsHost;
 
     private String http = "http://";
+
+    @Value("${file.folder}")
+    private String fileFolder;
 
     @PostConstruct
     public void init() {
@@ -177,6 +185,72 @@ public class AliossServiceImpl implements AliossService{
         return CollectionUtils.isEmpty(result) ? Collections.EMPTY_LIST : result;
     }
 
+    /**
+     * 文件六传输
+     *
+     * @param inputStream
+     * @param fileName
+     * @return
+     */
+    @Override
+    public OperationResult<Boolean> uploadFileToBasetool(InputStream inputStream, String fileName) throws FileNotFoundException {
+        if (null == inputStream) {
+            return new OperationResult<>(BizErrorCode.PARM_ERROR);
+        }
+        String saveAsPath = fileFolder + fileName;
+        File file = new File(saveAsPath);
+
+        OutputStream outputStream = new BufferedOutputStream(new FileOutputStream(file));
+        return null;
+    }
+
+    @Override
+    public boolean download(String downloadUrl, String saveAsPath) {
+
+        InputStream inputStream = null;
+        OutputStream outputStream = null;
+
+        try {
+            File file = new File(saveAsPath);
+            if (file.exists()) {
+                GwsLogger.info("file {} already exist", saveAsPath);
+                file.delete();
+//                return true;
+            }
+            file.createNewFile();
+
+            URL url = new URL(downloadUrl);
+            HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+            inputStream = conn.getInputStream();
+            outputStream = new BufferedOutputStream(new FileOutputStream(file));
+            int bufSize = 1024 * 4;
+            byte[] buffer = new byte[bufSize];
+            int bytesRead;
+            while ((bytesRead = inputStream.read(buffer)) > 0) {
+                outputStream.write(buffer, 0, bytesRead);
+            }
+            return true;
+        } catch (Exception e) {
+            GwsLogger.error(e, "download {} error");
+            return false;
+        } finally {
+            if (inputStream != null) {
+                try {
+                    inputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            if (outputStream != null) {
+                try {
+                    outputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 
     private String getPostfix (String file){
         if (null == file) {
