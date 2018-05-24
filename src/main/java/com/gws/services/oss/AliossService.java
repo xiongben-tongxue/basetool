@@ -52,7 +52,13 @@ public interface AliossService {
      * @param fileName
      * @return
      */
-    OperationResult<Boolean> uploadFileToBasetool(InputStream inputStream, String fileName) throws FileNotFoundException;
+    OperationResult<Boolean> uploadFileToBasetool(InputStream inputStream, String fileName);
 
+    /**
+     * 通过链接下载文件
+     * @param fileUrl
+     * @param saveAsPath
+     * @return
+     */
     boolean download(String fileUrl, String saveAsPath);
 }

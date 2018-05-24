@@ -88,12 +88,24 @@ public class OssController extends BaseController {
         return success(result);
     }
 
+    /**
+     * 上传文件到公共服务上去
+     * @param inputStream
+     * @param fileName
+     * @return
+     */
     @RequestMapping("uploadFileToBasetool")
-    public JsonResult uploadFileToBasetool(InputStream inputStream,String fileName) throws FileNotFoundException {
+    public JsonResult uploadFileToBasetool(InputStream inputStream,String fileName) {
         OperationResult<Boolean> result= aliossService.uploadFileToBasetool(inputStream, fileName);
         return success(result.getEntity());
     }
 
+    /**
+     * 通过地址下载文件并保存在本地
+     * @param fileUrl
+     * @param saveAsPath
+     * @return
+     */
     @RequestMapping("downloadFile")
     public JsonResult downloadFile(String fileUrl, String saveAsPath){
         boolean result = aliossService.download(fileUrl,saveAsPath);

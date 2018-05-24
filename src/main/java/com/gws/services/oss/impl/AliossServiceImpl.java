@@ -193,15 +193,49 @@ public class AliossServiceImpl implements AliossService{
      * @return
      */
     @Override
-    public OperationResult<Boolean> uploadFileToBasetool(InputStream inputStream, String fileName) throws FileNotFoundException {
+    public OperationResult<Boolean> uploadFileToBasetool(InputStream inputStream, String fileName){
         if (null == inputStream) {
             return new OperationResult<>(BizErrorCode.PARM_ERROR);
         }
         String saveAsPath = fileFolder + fileName;
-        File file = new File(saveAsPath);
+        OutputStream outputStream = null;
+        try {
+            File file = new File(saveAsPath);
+            if (file.exists()) {
+                GwsLogger.info("file {} already exist", saveAsPath);
+                file.delete();
+//                return true;
+            }
+            file.createNewFile();
 
-        OutputStream outputStream = new BufferedOutputStream(new FileOutputStream(file));
-        return null;
+            outputStream = new BufferedOutputStream(new FileOutputStream(file));
+            int bufSize = 1024 * 4;
+            byte[] buffer = new byte[bufSize];
+            int bytesRead;
+            while ((bytesRead = inputStream.read(buffer)) > 0) {
+                outputStream.write(buffer, 0, bytesRead);
+            }
+            return new OperationResult<>(true);
+        } catch (Exception e) {
+            GwsLogger.error(e, "download {} error");
+            return new OperationResult<>(false);
+        } finally {
+            if (inputStream != null) {
+                try {
+                    inputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            if (outputStream != null) {
+                try {
+                    outputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
     @Override
