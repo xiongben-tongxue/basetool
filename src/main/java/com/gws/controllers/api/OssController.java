@@ -35,9 +35,22 @@ public class OssController extends BaseController {
      * @return
      */
     @RequestMapping("uploadFile")
-    public JsonResult uploadFile(@RequestPart("file") MultipartFile file, @RequestParam String bucket){
+    public JsonResult uploadFile(@RequestPart("file") MultipartFile file, String bucket){
 
         String fileUrl = aliossService.uploadFile(file, bucket);
+        return success(fileUrl);
+    }
+
+    /**
+     * 传输文件流
+     * @param inputStream
+     * @param bucket
+     * @return
+     */
+    @RequestMapping("uploadFileStream")
+    public JsonResult uploadFileStream(@RequestParam("inputStream") MultipartFile inputStream, String bucket){
+
+        String fileUrl = aliossService.uploadFile(inputStream, bucket);
         return success(fileUrl);
     }
 
