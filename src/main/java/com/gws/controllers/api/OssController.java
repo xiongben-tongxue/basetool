@@ -55,6 +55,19 @@ public class OssController extends BaseController {
     }
 
     /**
+     * 传输多个文件流
+     * @param inputStream1
+     * @param bucket
+     * @return
+     */
+    @RequestMapping("uploadTwoFileStream")
+    public JsonResult uploadTwoFileStream(@RequestParam("inputStream1") MultipartFile inputStream1, @RequestParam("inputStream2") MultipartFile inputStream2,String bucket){
+        MultipartFile[] arr = {inputStream1,inputStream2};
+        List<String> fileUrls = aliossService.uploadFiles(arr, bucket);
+        return success(fileUrls);
+    }
+
+    /**
      * 上传字符串
      * @param stringFile
      * @param bucket
