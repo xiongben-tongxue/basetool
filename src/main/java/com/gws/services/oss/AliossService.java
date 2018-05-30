@@ -61,4 +61,12 @@ public interface AliossService {
      * @return
      */
     boolean download(String fileUrl, String saveAsPath);
+
+    /**
+     * 批量传输文件
+     * @param inputStreams
+     * @param bucket
+     * @return
+     */
+    List<String> uploadFilesStream(List<MultipartFile> inputStreams, String bucket);
 }

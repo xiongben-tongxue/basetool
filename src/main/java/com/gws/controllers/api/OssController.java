@@ -68,6 +68,20 @@ public class OssController extends BaseController {
     }
 
     /**
+     * 批量传输文件流
+     * @param inputStreams
+     * @param bucket
+     * @return
+     */
+    @RequestMapping("uploadFilesStream")
+    public JsonResult uploadFilesStream(@RequestParam("inputStreams") List<MultipartFile> inputStreams,String bucket){
+
+        List<String> fileUrls = aliossService.uploadFilesStream(inputStreams, bucket);
+
+        return success(fileUrls);
+    }
+
+    /**
      * 上传字符串
      * @param stringFile
      * @param bucket

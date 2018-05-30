@@ -31,8 +31,6 @@ import org.jboss.logging.Logger;
 @Service
 public class AliossServiceImpl implements AliossService{
 
-    static Logger logger = Logger.getLogger(GwsWebApplication.class);
-
     @Value("${ali.oss.endpoint}")
     private String aliOssEndpoint;
 
@@ -49,11 +47,6 @@ public class AliossServiceImpl implements AliossService{
 
     @Value("${file.folder}")
     private String fileFolder;
-
-    @PostConstruct
-    public void init() {
-        logger.info("ossClient Started");
-    }
 
     /**
      * 上传单个文件
@@ -284,6 +277,29 @@ public class AliossServiceImpl implements AliossService{
                 }
             }
         }
+    }
+
+    /**
+     * 批量传输文件
+     *
+     * @param inputStreams
+     * @param bucket
+     * @return
+     */
+    @Override
+    public List<String> uploadFilesStream(List<MultipartFile> inputStreams, String bucket) {
+        if (null == inputStreams || StringUtils.isEmpty(bucket)){
+            return Collections.EMPTY_LIST;
+        }
+
+        List<String> result = new ArrayList<>();
+
+        for (MultipartFile file : inputStreams){
+            String download = uploadFile(file,bucket);
+            result.add(download);
+        }
+
+        return CollectionUtils.isEmpty(result) ? Collections.EMPTY_LIST : result;
     }
 
     private String getPostfix (String file){
