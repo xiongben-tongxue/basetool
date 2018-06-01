@@ -302,6 +302,86 @@ public class AliossServiceImpl implements AliossService{
         return CollectionUtils.isEmpty(result) ? Collections.EMPTY_LIST : result;
     }
 
+    /**
+     * 将文件保存到服务器
+     *
+     * @param image_best
+     * @param image_env
+     * @return
+     */
+    @Override
+    public List<String> uploadToServer(MultipartFile image_best, MultipartFile image_env) {
+        if (null == image_best || null == image_env){
+            return Collections.EMPTY_LIST;
+        }
+        String image_bestFolder =uploadToServer(image_best);
+        String image_envFolder = uploadToServer(image_env);
+        List<String> result = new ArrayList<>();
+        result.add(image_bestFolder);
+        result.add(image_envFolder);
+        return result;
+    }
+
+    public String uploadToServer(MultipartFile multipartFile) {
+        if (null == multipartFile){
+            return null;
+        }
+
+        StringBuilder key = new StringBuilder();
+        String fileName = multipartFile.getOriginalFilename();
+        String postfix = getPostfix(fileName);
+        /*if (!org.springframework.util.StringUtils.isEmpty(postfix)) {
+            key.append(postfix).append("/");
+        }*/
+        key.append(UUID.randomUUID().toString());
+        if (!org.springframework.util.StringUtils.isEmpty(postfix)) {
+            key.append(".").append(postfix);
+        }
+        String fixKey = String.valueOf(key);
+
+        String saveAsPath = fileFolder+fixKey;
+
+        InputStream inputStream = null;
+        OutputStream outputStream = null;
+        try {
+            File file = new File(saveAsPath);
+            if (file.exists()) {
+                GwsLogger.info("file {} already exist", saveAsPath);
+                file.delete();
+            }
+            file.createNewFile();
+
+            inputStream = multipartFile.getInputStream();
+            outputStream = new BufferedOutputStream(new FileOutputStream(file));
+            int bufSize = 1024 * 4;
+            byte[] buffer = new byte[bufSize];
+            int bytesRead;
+            while ((bytesRead = inputStream.read(buffer)) > 0) {
+                outputStream.write(buffer, 0, bytesRead);
+            }
+            return saveAsPath;
+        } catch (Exception e) {
+            GwsLogger.error(e, "download {} error");
+            return null;
+        } finally {
+            if (inputStream != null) {
+                try {
+                    inputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            if (outputStream != null) {
+                try {
+                    outputStream.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
     private String getPostfix (String file){
         if (null == file) {
             return "";

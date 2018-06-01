@@ -69,4 +69,12 @@ public interface AliossService {
      * @return
      */
     List<String> uploadFilesStream(List<MultipartFile> inputStreams, String bucket);
+
+    /**
+     * 将文件保存到服务器
+     * @param image_best
+     * @param image_env
+     * @return
+     */
+    List<String> uploadToServer(MultipartFile image_best, MultipartFile image_env);
 }

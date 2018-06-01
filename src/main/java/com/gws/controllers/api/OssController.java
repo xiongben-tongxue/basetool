@@ -3,6 +3,7 @@ package com.gws.controllers.api;
 import com.gws.controllers.BaseController;
 import com.gws.controllers.JsonResult;
 import com.gws.dto.OperationResult;
+import com.gws.resp.FaceIdentityResp;
 import com.gws.services.oss.AliossService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -64,6 +65,18 @@ public class OssController extends BaseController {
     public JsonResult uploadTwoFileStream(@RequestParam("inputStream1") MultipartFile inputStream1, @RequestParam("inputStream2") MultipartFile inputStream2,String bucket){
         MultipartFile[] arr = {inputStream1,inputStream2};
         List<String> fileUrls = aliossService.uploadFiles(arr, bucket);
+        return success(fileUrls);
+    }
+
+    @RequestMapping("faceIdentity")
+    public JsonResult faceIdentity(@RequestParam("image_best") MultipartFile image_best, @RequestParam("image_env") MultipartFile image_env,String name,String codeno){
+
+        List<String> fileUrls = aliossService.uploadToServer(image_best, image_env);
+
+        FaceIdentityResp faceIdentityResp = new FaceIdentityResp();
+        faceIdentityResp.setPlatformtoken("helloWorld");
+        faceIdentityResp.setPosphone(true);
+        faceIdentityResp.setHandphone(true);
         return success(fileUrls);
     }
 
