@@ -28,6 +28,7 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import redis.clients.jedis.JedisPoolConfig;
 
+import javax.annotation.Resource;
 import java.util.Arrays;
 import java.util.Map;
 
@@ -57,7 +58,7 @@ public class RedisCacheConfig {
     @Value("${redis.pool.maxTotal}")
     private int maxTotal;
 	
-	@Autowired
+	@Resource
 	@Qualifier("redisTemplate")
 	private RedisTemplate<Object, Object> redisTemplate;
 	
