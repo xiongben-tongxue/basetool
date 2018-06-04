@@ -57,8 +57,14 @@ public class RedisCacheConfig {
 
     @Value("${redis.pool.maxTotal}")
     private int maxTotal;
-	
-	@Resource
+
+	@Value("${redis.pool.maxIdle}")
+	private int maxIdle;
+
+	@Value("${redis.pool.minIdle}")
+	private int minIdle;
+
+	@Autowired
 	@Qualifier("redisTemplate")
 	private RedisTemplate<Object, Object> redisTemplate;
 	
@@ -83,6 +89,8 @@ public class RedisCacheConfig {
         jedisPoolConfig.setBlockWhenExhausted(true);
         jedisPoolConfig.setTestOnBorrow(true);
         jedisPoolConfig.setMaxTotal(maxTotal);
+		jedisPoolConfig.setMaxIdle(maxIdle);
+		jedisPoolConfig.setMinIdle(minIdle);
         return jedisPoolConfig;
     }
 
