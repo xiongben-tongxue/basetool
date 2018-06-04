@@ -327,19 +327,19 @@ public class AliossServiceImpl implements AliossService{
             return null;
         }
 
-        StringBuilder key = new StringBuilder();
+        //StringBuilder key = new StringBuilder();
         String fileName = multipartFile.getOriginalFilename();
-        String postfix = getPostfix(fileName);
+        //String postfix = getPostfix(fileName);
         /*if (!org.springframework.util.StringUtils.isEmpty(postfix)) {
             key.append(postfix).append("/");
         }*/
-        key.append(UUID.randomUUID().toString());
-        if (!org.springframework.util.StringUtils.isEmpty(postfix)) {
-            key.append(".").append(postfix);
-        }
-        String fixKey = String.valueOf(key);
+        //key.append(UUID.randomUUID().toString());
+        //if (!org.springframework.util.StringUtils.isEmpty(postfix)) {
+            //key.append(".").append(postfix);
+        //}
+        //String fixKey = String.valueOf(key);
 
-        String saveAsPath = fileFolder+fixKey;
+        String saveAsPath = fileFolder+fileName;
 
         InputStream inputStream = null;
         OutputStream outputStream = null;
