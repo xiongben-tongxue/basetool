@@ -91,6 +91,7 @@ public class RedisCacheConfig {
         jedisPoolConfig.setMaxTotal(maxTotal);
 		jedisPoolConfig.setMaxIdle(maxIdle);
 		jedisPoolConfig.setMinIdle(minIdle);
+		jedisPoolConfig.setMaxWaitMillis(100000);
         return jedisPoolConfig;
     }
 
